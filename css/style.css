@@ -1,3 +1,158 @@
+/*    style global */
+/*colores
+#12489e
+*/
+@font-face {
+    font-family: 'Work Sans Light';
+    src: url(../fonts/WorkSans-Bold.ttf) format('truetype');
+    font-weight: 100;
+}
+@font-face {
+    font-family: 'Work Sans Regular';
+    src: url(../fonts/WorkSans-Regular.ttf) format('truetype');
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'Work Sans Medium';
+    src: url(../fonts/WorkSans-Medium.ttf) format('truetype');
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'Work Sans Bold';
+    src: url(../fonts/WorkSans-Medium.ttf) format('truetype');
+    font-weight: 600;
+}
+@font-face {
+    font-family: 'Work Sans Extra Bold';
+    src: url(../fonts/WorkSans-ExtraBold.ttf) format('truetype');
+    font-weight: 700;
+}
+@font-face {
+    font-family: 'Work Sans Black';
+    src: url(../fonts/WorkSans-Black.ttf) format('truetype');
+    font-weight: 900;
+}
+
+
+
+a,
+p,i,
+.title,
+.subtitle{
+    color: #12489e;
+}
+.btn-primary{
+    background-color: #12489e !important;
+    color: #fff !important;
+}
+.btn-primary-basic{
+    background-color: #fff !important;
+    color: #12489e !important;
+}
+
+.header{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.menu,
+.submenu{
+    display: flex;
+    flex: 1;
+    justify-content:space-between;
+    width: 100%;
+    max-width: 1357px;
+}
+.submenu{
+    max-width: none;
+    background-color: #BFC8CF;
+}
+
 .logo{
     width: 196px;
 }
+.list-menu,
+.list-submenu{
+    display: flex;
+    gap: 30px;
+    padding: 0px 40px;
+
+    list-style: none;
+    margin-bottom: 0;
+
+    font-size: 16px;
+    font-family: 'Work Sans Medium';
+}
+.list-menu a,
+.list-submenu a{
+    text-decoration: none;
+}
+.list-submenu {
+    display: flex;
+    flex: 1;
+    gap: 1px;
+
+    padding: 0;
+}
+.list-submenu .item{
+    width: 25%;
+    background-color: #fff;
+}
+.list-submenu a {
+    display: flex;
+    justify-content: center;
+    padding: 12px 0;
+}
+.telefono{
+    display: flex;
+}
+.telefono a{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+
+
+    text-decoration: none;
+
+    font-size: 25px;
+    font-family: 'Work Sans Bold';
+}
+.btn{
+    display: flex;
+
+    border-radius: 34px;
+
+    font-family: 'Work Sans Extra Bold';
+}
+
+.animacion-bounce{
+    width: 23px;
+    height: fit-content;
+    animation: slidein; 
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: both;
+}
+@keyframes slidein {
+    0% {
+      transform: translateY(5%);
+    }
+    50% {
+      transform: translateY(-10%);
+    }
+    100% {
+      transform: translateY(5%);
+    }
+  }
+  @-webkit-keyframes slidein {
+    0% {
+      transform: translateY(5%);
+    }
+    50% {
+      transform: translateY(-10%);
+    }
+    100% {
+      transform: translateY(5%);
+    }
+  }
