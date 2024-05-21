@@ -1,0 +1,9 @@
+.carousel-item{
+    height: 439px;
+}
+.carousel-control-prev-icon{
+    background-image: url(/images/slider-nav-left.svg);
+}
+.carousel-control-next-icon{
+    background-image: url(/images/slider-nav-right.svg);
+}
