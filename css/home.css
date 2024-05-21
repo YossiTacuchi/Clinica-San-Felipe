@@ -1,9 +1,26 @@
 .carousel-item{
     height: 439px;
 }
+.carousel-item img{
+    height: fit-content;
+}
 .carousel-control-prev-icon{
     background-image: url(/images/slider-nav-left.svg);
 }
 .carousel-control-next-icon{
     background-image: url(/images/slider-nav-right.svg);
+}
+
+.cta-home{
+    padding: 2.2rem 1.5rem 2.5rem;
+    margin-top: -20px;
+    border-radius: 4px 4px 4px 30px !important;
+
+    background-color: #12489e;
+}
+.cta-home label{
+
+    color: #fff;
+    font-size: 24px;
+    font-family: 'Work Sans Medium';
 }
