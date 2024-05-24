@@ -17,7 +17,7 @@
     position: relative;
     width: 1100px;
     padding: 1.3rem 1.5rem 1.8rem;
-    margin-top: -20px;
+    margin-top: -40px;
     border-radius: 4px 4px 4px 30px !important;
 
     background-color: #12489e;
@@ -35,4 +35,113 @@
     padding: 0 15px;
     height: 50px;
     border-radius: 4px 4px 4px 30px !important;
+}
+
+.bg-block-1{
+    margin-top: -60px;
+    padding: 70px 20px 10px;
+    background-image: url(/images/bgBlockA.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.text-block{
+    width: 400px;
+    font-size: 35px;
+    line-height: 1.2;
+    font-family: 'Work Sans Bold';
+
+    color: #0043a5;
+}
+.card-home{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    padding: 30px 15px;
+    width: 315px;
+    border: 3px solid #000;
+    border-radius: 4px 4px 30px 4px;
+    text-decoration: none;
+}
+.card-home:hover{
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.4);
+    transition: .25s all;
+    transform: scale(0.98);
+}
+.card-home svg{
+    width: 25px;
+    height: 25px;
+}
+.card-home.card-1 svg{
+    fill: #00a1ff;
+}
+.card-home.card-2 svg{
+    fill: #ff6b00;
+}
+.card-home.card-3 svg{
+    fill: #0043a5;
+}
+.card-home.card-4 svg{
+    fill: #84bd00;
+}
+.card-home.card-1{
+    border-color: #00a1ff;
+    color: #00a1ff;
+}
+.card-home.card-2{
+    border-color: #ff6b00;
+    color: #ff6b00;
+}
+.card-home.card-3{
+    border-color: #0043a5;
+    color: #0043a5;
+}
+.card-home.card-4{
+    border-color: #84bd00;
+    color: #84bd00;
+}
+.card-home .card-texto,
+.card-home .card-ver{
+    color: #0043A5;
+}
+.card-home .card-texto{
+    font-size: 20px;
+    font-family: 'Work Sans Bold';
+}
+.card-home .card-ver{
+    font-size: 16px;
+    font-family: 'Work Sans Bold';
+    text-decoration: underline;
+}
+
+.bg-block-2{
+    width: 100%;
+    height: 347px;
+
+    border-radius: 8px;
+    
+    margin-top: 10px;
+    border: solid 2px #84BD00;
+
+    background-image: url(/images/HOME-bloque-nacerseguro-Desktop2.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.bg-block-2 p{
+    width: 295px;
+    height: 78px;
+    overflow: hidden;
+    padding: 5px;
+
+    border: 2px solid #84BD00;
+    border-style: dashed;
+    border-radius: 5px;
+
+    text-align: center;
+    font-size: 14px;
+    font-family: 'Work Sans Bold';
+    
+    background: #ffff;
 }

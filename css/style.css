@@ -49,6 +49,10 @@ p,i,
     background-color: #fff !important;
     color: #12489e !important;
 }
+.btn-secondary{
+    background-color: #84bd00 !important;
+    color: #fff !important;
+}
 
 .header{
     width: 100%;
@@ -226,4 +230,7 @@ p,i,
     visibility: hidden;
     max-height: 0;
     transition: all 0.3s;
+}
+.container-csf{
+    background-color: #f3f3f3;
 }
