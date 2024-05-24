@@ -145,3 +145,21 @@
     
     background: #ffff;
 }
+
+.text-block-3{
+    font-size: 28px;
+    font-family: 'Work Sans Bold';
+    line-height: 1.25;
+
+    color: #0043A5;
+}
+.block-3 a{
+    font-size: 16px;
+    font-family: 'Work Sans Bold';
+
+    color: #0043A5;
+}
+.img-block-3{
+    height: 76px;
+    margin-right: 15px;
+}
