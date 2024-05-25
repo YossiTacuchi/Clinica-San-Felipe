@@ -53,6 +53,9 @@ p,i,
     background-color: #84bd00 !important;
     color: #fff !important;
 }
+.btn-italic{
+    font-style: italic !important;
+}
 
 .header{
     width: 100%;
