@@ -365,3 +365,8 @@ input[type=email]:focus{
         align-items: center;
     }
 }
+@media all and (max-width: 991px){
+    .logo{
+        width: 140px;
+    }
+}

@@ -1,0 +1,209 @@
+.banner-nosotros{
+    height: 440px;
+
+    background-image: url(../images/banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.banner-nosotros-texto{
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+
+    width: 465px;
+    height: 100%;
+}
+.banner-nosotros-texto h1{
+    font-size: 48px;
+    font-family: 'Work Sans Bold';
+    color: #0043a5;
+}
+.banner-nosotros-texto p{
+    font-size: 20px;
+    font-family: 'Work Sans Regular';
+
+    color: #0043a5;
+}
+
+.servicios-texto{
+    flex-direction: column;
+    align-items: center;
+
+    padding: 30px 0;
+}
+.servicios-texto h2{
+    font-size: 30px;
+    font-family: 'Work Sans Bold';
+
+    color: #0043a5;
+}
+.servicios-texto p{
+    font-size: 16px;
+    font-family: 'Work Sans Regular';
+    text-align: center;
+
+    color: #0043a5;
+}
+.servicios-caracteristicas{
+    justify-content: space-between;
+    padding: 70px 0 50px;
+}
+.servicios-caracteristicas .caracteristica{
+    display: flex;
+    align-items: center;
+}
+.servicios-caracteristicas .caracteristica img{
+    height: 76px;
+    margin-right: 15px;
+}
+.servicios-caracteristicas .caracteristica p{
+    display: flex;
+    align-items: center;
+
+    width: 165px;
+    height: 100%;
+    margin-bottom: 0;
+
+    font-size: 20px;
+    font-family: 'Work Sans Bold';
+
+    color: #0043a5;
+}
+.sedes{
+    padding: 30px 0 60px;
+}
+.sedes .sedes-texto{
+    flex-direction: column;
+    align-items: center;
+}
+.sedes .sedes-texto{
+    flex-direction: column;
+    align-items: center;
+}
+.sedes .sedes-texto h2{
+    padding: 20px 0;
+
+    font-size: 30px;
+    font-family: 'Work Sans Bold';
+
+    color: #0043a5;
+}
+.sedes .sedes-texto p{
+    flex-direction: column;
+    align-items: center;
+
+    padding: 20px 0;
+
+    font-size: 16px;
+    font-family: 'Work Sans Regular';
+    text-align: center;
+
+    color: #0043a5;
+}
+.sedes-lista{
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.sedes-lista .sede{
+    justify-content: center;
+    align-items: center;
+
+    position:  relative;
+    height: 240px;
+    width: 100%;
+    text-align: center;
+    border-radius: 9px;
+
+    background-position: center;
+    background-size: cover;
+}
+.sedes-lista .sede:before{
+    content: '';
+    position: absolute;
+    z-index: 0;
+
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+
+    border-radius: 9px;
+    
+    background-blend-mode: multiply;
+    background: linear-gradient(180deg, rgba(123, 123, 123, 0) 0%, rgba(0, 0, 0, 0.4) 100%);
+}
+.sedes-lista .sede.sede-1{
+    background-image: url(../images/sede-camacho.jpg);
+}
+.sedes-lista .sede.sede-2{
+    background-image: url(../images/sede-camacho.jpg);
+}
+.sedes-lista .sede.sede-3{
+    background-image: url(../images/sede-camacho.jpg);
+}
+.sedes-lista .sede .sede-texto{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    position: relative;
+    text-decoration: none;
+
+    color: #fff;
+}
+.sedes-lista .sede .sede-texto h3{
+    font-size: 30px;
+    font-family: 'Work Sans Extra Bold';
+}
+.sedes-lista .sede .sede-texto span{
+    font-size: 16px;
+    font-family: 'Work Sans Regular';
+
+    text-decoration: underline;
+}
+@media all and (max-width: 991px){
+    .banner-nosotros{
+        height: 280px;
+        background-position: 85%;
+    }
+    .banner-nosotros-texto{
+        justify-content: flex-start;
+
+        padding-top: 30px;
+        width: 240px;
+    }
+    .banner-nosotros-texto h1{
+        font-size: 26px;
+    }
+    .banner-nosotros-texto p{
+        font-size: 14px;
+    }
+    
+    .servicios-texto h2{
+        font-size: 22px;
+    }
+
+    .servicios-texto{
+        padding: 20px 0 0;
+    }
+    .servicios-caracteristicas{
+        flex-direction: column;
+        gap: 40px;
+    }
+    .servicios-caracteristicas .caracteristica{
+        justify-content: center;
+    }
+    .servicios-caracteristicas .caracteristica img{
+        height: 50px;
+    }
+    
+    .sedes .sedes-texto h2{
+        font-size: 22px;
+        padding: 20px 0 0;
+    }
+    .sedes-lista .sede .sede-texto h3{
+        font-size: 22px;
+    }
+}
