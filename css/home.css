@@ -370,6 +370,14 @@ ul.list-sede {
     .cta-home .text-form{
         font-size: 14px;
     }
+    .block-1-texto{
+        justify-content: center;
+        padding-bottom: 15px;
+    }
+    .text-block{
+        font-size: 20px;
+        text-align: center;
+    }
     .card-home{
         width: 47%;
     }
