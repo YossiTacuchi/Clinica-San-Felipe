@@ -360,3 +360,25 @@ ul.list-sede {
 .owl-carousel.owl-carousel-sedes .owl-nav button.owl-prev{
     background: url('../images/nav-bg-blue-prev.svg'), #0043A5 !important;
 }
+
+@media all and (max-width: 991px){
+    .cta-home{
+        flex-direction: column;
+        width: 350px;
+        gap: 10px;
+    }
+    .cta-home .text-form{
+        font-size: 14px;
+    }
+    .card-home{
+        width: 47%;
+    }
+    .bg-block-2{
+        justify-content: center;
+
+        background-image: url(../images/HOME-bloque-nacerseguro-Mobile.png);
+    }
+    .container-block-3{
+        flex-direction: column;
+    }
+}
