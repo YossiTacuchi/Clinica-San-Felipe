@@ -45,6 +45,10 @@
     background-position: center;
     background-repeat: no-repeat;
 }
+.block-1-texto{
+    width: 100%;
+    align-items: center;
+}
 .text-block{
     width: 400px;
     font-size: 35px;

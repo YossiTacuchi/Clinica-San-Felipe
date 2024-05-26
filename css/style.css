@@ -43,18 +43,32 @@ p,i,
 }
 .btn-primary{
     background-color: #12489e !important;
+    border-color: #12489e !important;
     color: #fff !important;
 }
 .btn-primary-basic{
     background-color: #fff !important;
+    border-color: #fff !important;
     color: #12489e !important;
 }
 .btn-secondary{
     background-color: #84bd00 !important;
+    border-color: #84bd00 !important;
     color: #fff !important;
+}
+.btn-secondary-basic{
+    background-color: #fff !important;
+    border-color: #fff !important;
+    color: #84bd00 !important;
 }
 .btn-italic{
     font-style: italic !important;
+}
+
+input[type=text]:focus,
+input[type=number]:focus,
+input[type=email]:focus{
+    outline: none;
 }
 
 .header{
@@ -74,8 +88,38 @@ p,i,
     max-width: 1357px;
 }
 .submenu{
+    visibility: hidden;
     max-width: none;
     background-color: #BFC8CF;
+}
+.header.sticky-top{
+    position: fixed;
+    opacity: 0;
+    top: 0;
+    animation: menu; 
+    animation-duration: .75s;
+    animation-fill-mode: both;
+}
+@keyframes menu {
+    0% {
+      transform: translateY(-25%);
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+@-webkit-keyframes menu {
+0% {
+    transform: translateY(-25%);
+    }
+    100% {
+    transform: translateY(0);
+    opacity: 1;
+    }
+}
+.header.sticky-top .submenu{
+    visibility: visible;
 }
 
 .logo{
@@ -126,6 +170,9 @@ p,i,
 
     font-size: 25px;
     font-family: 'Work Sans Bold';
+}
+.telefono a img{
+    width: 32px;
 }
 .btn{
     display: flex;
@@ -236,4 +283,32 @@ p,i,
 }
 .container-csf{
     background-color: #f3f3f3;
+}
+.scroll-to-top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    cursor: pointer;
+    position: fixed;
+    z-index: 100;
+    width: 45px;
+    height: 45px;
+    bottom: 30px;
+    border-radius: 40px;
+    right: 30px;
+    margin-right: 60px;
+    opacity: 0;
+    transform: translateY(100px);
+    transition: all 1s ease;
+
+    background-color: #0043a5;
+    border: solid 3px #84bd00;
+}
+.scroll-to-top img{
+    transform: translateY(-2px);
+}
+.scroll-to-top.show-scroll{
+    opacity: 1;
+    transform: translateY(0px);
 }

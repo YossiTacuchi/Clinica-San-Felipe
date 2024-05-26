@@ -3,17 +3,30 @@ $(document).ready(function() {
   var lastScrollTop = 0;
   $(window).scroll(function() {
     var scrollTop = $(this).scrollTop();
-    if (scrollTop > lastScrollTop) {
+    if ($(window).scrollTop() > 10) {
       // Scroll down
       $('.header').addClass("sticky-top");
-      //$('.submenu').addClass("hide");
     } else {
       // Scroll up
-      $('.header').addClass("sticky-top");
-      //$('.submenu').removeClass("hide");
+      $('.header').removeClass("sticky-top");
     }
     lastScrollTop = scrollTop;
   });
+
+  var scrollToTopBtn = $('.scroll-to-top');
+
+    $(window).scroll(function() {
+      if ($(window).scrollTop() > 300) {
+        scrollToTopBtn.addClass('show-scroll');
+      } else {
+        scrollToTopBtn.removeClass('show-scroll');
+      }
+    });
+
+    scrollToTopBtn.click(function() {
+      $('html, body').animate({scrollTop: 0}, '200');
+      return false;
+    });
 
   $('.owl-carousel-articulos').owlCarousel({
     loop:true,
