@@ -278,3 +278,81 @@
 .owl-carousel .owl-nav button.owl-next {
     right: 5px;
 }
+
+.block-5 h3{
+    text-align: center;
+    color: #0043A5;
+    font-size: 30px;
+    font-family: 'Work Sans Medium';
+}
+.block-5 .titulo-sede{
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Work Sans Medium';
+}
+.bg-mapa img{
+    height: 670px;
+    width: auto !important;
+}
+.sede-card{
+    position: relative;
+    color: #fff;
+    background: #0043A5;
+    padding: 1.5rem 2rem;
+    border-radius: 8px 8px 30px 8px;
+    width: 360px;
+
+    margin-left: 100px;
+}
+.sede-top{
+    justify-content: space-between;
+    align-items: center;
+    
+    padding-bottom: 10px;
+    margin-bottom: 40px;
+    border-bottom: 1px solid #ffff;
+}
+.sede-top a {
+    display: block;
+    height: 35px;
+    width: 35px;
+    text-align: center;
+    background: #ffff;
+    color: #84BD00 !important;
+    padding: 5px 0;
+    border-radius: 100px;
+    text-decoration: none;
+}
+.text-sede,
+.list-sede{
+    font-size: 16px;
+    font-family: 'Work Sans Medium';
+}
+ul.list-sede {
+    padding-left: 15px;
+}
+.buttons-sede{
+    flex-direction: column;
+    gap: 20px;
+}
+.buttons-sede a{
+    padding: 0;
+    margin: 0;
+}
+.buttons-sede a img{
+    filter: none !important;
+    height: 65px !important;
+}
+.owl-carousel.owl-carousel-sedes .owl-nav button{
+    width: 40px;
+    height: 40px;
+}
+.owl-carousel.owl-carousel-sedes .owl-nav button span{
+    opacity: 0;
+}
+.owl-carousel.owl-carousel-sedes .owl-nav button.owl-next{
+    background: url('../images/nav-bg-blue-next.svg'), #0043A5 !important;
+}
+.owl-carousel.owl-carousel-sedes .owl-nav button.owl-prev{
+    background: url('../images/nav-bg-blue-prev.svg'), #0043A5 !important;
+}
