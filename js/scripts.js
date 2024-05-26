@@ -3,7 +3,7 @@ $(document).ready(function() {
   var lastScrollTop = 0;
   $(window).scroll(function() {
     var scrollTop = $(this).scrollTop();
-    if ($(window).scrollTop() > 10) {
+    if ($(window).scrollTop() > 5) {
       // Scroll down
       $('.header').addClass("sticky-top");
     } else {

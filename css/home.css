@@ -378,6 +378,30 @@ ul.list-sede {
 
         background-image: url(../images/HOME-bloque-nacerseguro-Mobile.png);
     }
+    .block-3{
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+    .block-card-3{
+        width: 100%;
+    }
+    .img-block-3{
+        margin-right: 0;
+    }
+    .img-block-3{
+        height: 50px;
+    }
+    .text-block-3{
+        font-size: 20px;
+    }
+    .block-card-3 .bg-block-3-card{
+        height: 0;
+        background-image: none;
+    }
+    .block-card-3 .card-content-3{
+        border-radius: 8px;
+    }
     .container-block-3{
         flex-direction: column;
     }
