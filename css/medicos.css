@@ -73,19 +73,74 @@
     border-radius: 4px 4px 4px 30px !important;
 }
 
-.lista .lista-resultado{
+.seccion-lista .lista-resultado {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 30px 0;
+}
+.seccion-lista .lista-resultado .lista{
+    font-size: 16px;
+    padding: 1rem;
+    border-radius: 3px;
+
+    background-color: #ffff;
+    border: 1px solid #84BD00 !important;
+}
+.seccion-lista .lista-resultado .lista{
     justify-content: space-between;
     padding: 20px;
 }
-.lista .lista-resultado .avatar{
+.seccion-lista .lista-resultado .lista .descripcion {
+    gap: 0px;
+}
+.seccion-lista .lista-resultado .lista .descripcion .area{
+    font-size: 16px;
+    font-family: 'Work Sans Medium';
+
+    color: #555555;
+}
+.seccion-lista .lista-resultado .lista .descripcion .nombre{
+    font-size: 20px;
+    font-family: 'Work Sans Bold';
+
+    color: #0043a5;
+}
+.seccion-lista .lista-resultado .lista .avatar{
     width: 70px;
     height: 70px;
     border-radius: 50%;
     overflow: hidden;
 }
-.lista .lista-resultado .avatar img{
+.seccion-lista .lista-resultado .lista .avatar img{
     width: 100%;
     height: fit-content;
+}
+.seccion-lista .lista-resultado .lista .ctas{
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.pagination li a {
+    display: inline;
+    margin-right: 5px;
+    padding: 5px 10px;
+    background-color: #0043a5;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+}
+.pagination .page-item.disabled{
+    display: none;
+}
+.pagination li.active a{
+    background-color: #84BD00;
+    border: 1px solid #ccc;
+    color: #fff;
+}
+ul.pagination {
+    margin-bottom: 30px;
 }
 
 @media all and (max-width: 991px){
@@ -112,5 +167,29 @@
 
     .medicos-texto{
         padding: 20px 0 0;
+    }
+
+    .cta-medico .text-form{
+        margin: auto;
+
+        text-align: center;
+        font-size: 14px;
+    }
+    .cta-medico{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .form-search-consulta{
+        width: 100%;
+    }
+    .seccion-lista .lista-resultado .lista{
+        flex-direction: column;
+        gap: 30px;
+    }
+    .seccion-lista .lista-resultado .lista .ctas{
+        justify-content: space-between;
+    }
+    .seccion-lista .lista-resultado .lista .descripcion{
+        flex: 1;
     }
 }

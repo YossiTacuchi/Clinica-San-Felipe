@@ -52,6 +52,11 @@ h4{
     border-color: #12489e !important;
     color: #fff !important;
 }
+.btn-primary-outline{
+    background-color: #ffff !important;
+    border-color: #0043A5 !important;
+    color: #0043A5 !important;
+}
 .btn-primary-basic{
     background-color: #fff !important;
     border-color: #fff !important;
@@ -327,6 +332,17 @@ input[type=email]:focus{
 .scroll-to-top.show-scroll{
     opacity: 1;
     transform: translateY(0px);
+}
+
+.badge{
+    font-size: 12px;
+    font-weight: 600;
+    color: #667076;
+    border: 1px solid #667076;
+    padding: .2rem;
+    border-radius: 3px;
+    width: fit-content !important;
+    margin-top: 10px;
 }
 @media all and (max-width: 1280px){
     .telefono{
