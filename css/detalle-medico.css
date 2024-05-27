@@ -176,3 +176,27 @@
     justify-content: center;
     align-self: center;
 }
+@media all and (max-width: 991px){
+    .medico .container-medico{
+        flex-direction: column;
+        padding: 2.5rem 1rem;
+    }
+    .medico .container-medico .medico-informacion{
+        padding: 30px 0;
+    }
+    .accordion-info{
+        padding: 0 0 20px;
+    }
+    .banner .banner-servicios .banner-img{
+        display: none !important;
+    }
+    .banner .banner-servicios .banner-texto{
+        width: 100%;
+    }
+    .banner .banner-servicios .banner-texto h3{
+        font-size: 22px;
+    }
+    .banner .banner-servicios .banner-texto p{
+        font-size: 14px;
+    }
+}
