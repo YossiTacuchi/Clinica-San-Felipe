@@ -41,6 +41,9 @@ p,i,
 .subtitle{
     color: #12489e;
 }
+h4{
+    letter-spacing: -0.75px;
+}
 .btn-primary{
     background-color: #12489e !important;
     border-color: #12489e !important;

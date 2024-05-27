@@ -1,0 +1,91 @@
+.banner-nosotros{
+    height: 440px;
+
+    background-image: url(../images/Unidades_de_apoyo_al_diagnostico.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.banner-nosotros-texto{
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+
+    width: 465px;
+    height: 100%;
+}
+.banner-nosotros-texto h1{
+    font-size: 48px;
+    font-family: 'Work Sans Bold';
+    color: #0043a5;
+}
+.banner-nosotros-texto p{
+    font-size: 20px;
+    font-family: 'Work Sans Regular';
+
+    color: #0043a5;
+}
+.ofrecemos{
+    flex-direction: column;
+}
+.ofrecemos-texto-2{
+    flex-direction: column;
+}
+.sub-servicios-texto{
+    align-items: center;
+    text-align: center;
+}
+.sub-servicios,
+.sub-servicios-texto-2{
+    flex-direction: column;
+    align-items: center;
+}
+.sub-servicios-items{
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+.sub-servicios-items .item {
+    flex-direction: column;
+    gap: 10px;
+
+    position: relative;
+    text-decoration: none;
+    padding: 1rem;
+
+    width: 260px;
+    min-height: 220px;
+
+    border-radius: 4px 4px 30px 4px;
+    border: 3px solid #84BD00 !important;
+    
+
+    background-color: #ffff;
+    transition: .25s all;
+}
+.sub-servicios-items .item img{
+    min-height: 75px;
+    max-height: 75px;
+}
+.sub-servicios-items .item h4{
+    height: 50px;
+
+    font-size: 20px;
+    font-family: 'Work Sans Bold';
+
+    color: #0043a5;
+}
+.sub-servicios-items .item .sub-servicios-locales{
+    gap: 5px;
+}
+.sub-servicios-items .item .sub-servicios-locales .badge{
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: #667076;
+    border: 1px solid #667076;
+    padding: .2rem;
+    border-radius: 3px;
+    width: fit-content !important;
+    margin-top: 10px;
+}
