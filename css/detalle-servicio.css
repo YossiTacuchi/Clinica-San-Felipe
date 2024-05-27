@@ -27,6 +27,8 @@
 }
 
 .breadcrumbs{
+    padding: 20px 0;
+
     gap: 5px;
     font-size: 16px;
     font-family: 'Work Sans Bold';
@@ -34,19 +36,22 @@
 .breadcrumbs .bc-link{
     text-decoration: none;
     color: #667076;
+    white-space: nowrap;
 }
 .breadcrumbs .bc-active{
     color: #0043a5;
+    white-space: nowrap;
 }
 
 .container-tags{
+    padding: 30px 0;
     display: flex;
     justify-content: space-between;
 }
 .tags{
 
     position: sticky;
-    top: 100px; /* Cambia a 'top: 0;' si quieres que se adhiera a la parte superior */
+    top: 11rem; /* Cambia a 'top: 0;' si quieres que se adhiera a la parte superior */
 
     background: #ffff;
     width: 276px;
@@ -54,9 +59,6 @@
     margin-right: 20px;
     padding: 1rem 1.5rem 0;
     border-radius: 9px;
-    position: sticky;
-    top: 0;
-    top: 13rem;
 }
 .tags ul{
     padding-left: 0;
@@ -119,4 +121,61 @@
 
 .img-reservar{
     width: 112px;
+}
+
+@media all and (max-width: 991px){
+    .breadcrumbs{
+        flex-direction: column;
+    }
+    .tags{
+        position: relative;
+        top: 0;
+        width: 100%;
+        padding: 0;
+        margin-bottom: 30px;
+        background-color: transparent;
+    }
+    .list-tags{
+        display: flex;
+        
+    }
+    .tags ul {
+        width: 100%;
+        overflow: auto;
+    }
+    .tags ul li a{
+        white-space: nowrap;
+        padding: 20px;
+        
+        font-size: 14px;
+        font-family: 'Work Sans Extra Bold';
+        color: #84BD00;
+    }
+    .tags ul li{
+        display: flex;
+
+        padding: 0;
+        border-radius: 3px;
+        
+        padding: 0rem .5rem;
+        text-align: center;
+        height: 60px;
+        margin: 0 10px;
+
+        background-color: #ffff;
+        border: 1px solid #84BD00;
+    }
+    .container-tags{
+        padding: 20px 0;
+        flex-direction: column;
+    }
+    .contenido-servicio{
+        width: 100%;
+    }
+    
+    .contenido-servicio h4,
+    .contenido-servicio p,
+    .contenido-servicio ul li{
+        font-size: 16px;
+    }
 }
