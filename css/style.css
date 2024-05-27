@@ -344,6 +344,22 @@ input[type=email]:focus{
     width: fit-content !important;
     margin-top: 10px;
 }
+
+.breadcrumbs{
+    padding: 20px 0;
+
+    gap: 5px;
+    font-size: 16px;
+    font-family: 'Work Sans Bold';
+}
+.breadcrumbs .bc-link{
+    text-decoration: none;
+    color: #667076;
+}
+.breadcrumbs .bc-active{
+    color: #0043a5;
+}
+
 @media all and (max-width: 1280px){
     .telefono{
         display: none;
@@ -391,5 +407,8 @@ input[type=email]:focus{
     }
     .navbar-toggler{
         display: block;
+    }
+    .breadcrumbs{
+        flex-direction: column;
     }
 }
