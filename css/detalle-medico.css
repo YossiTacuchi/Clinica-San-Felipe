@@ -1,18 +1,166 @@
+.medico .container-medico{
+    padding: 3.5rem 3rem;
+    border-radius: 9px 9px 0 0;
+}
+.medico .container-medico .medico-principal{
+    justify-content: center;
+}
+.medico .container-medico .medico-principal,
+.medico .container-medico .medico-informacion{
+    flex: 1;
+}
+.medico .container-medico .medico-informacion{
+    flex-direction: column;
+    gap: 10px;
+    align-self: baseline;
 
+    padding: 0 80px;
 
+    font-size: 18px;
+    font-family: 'Work Sans Bold';
+}
+.medico .container-medico .medico-informacion .info-icon{
+    align-self: baseline;
+    padding-top: 6px;
+}
+.medico .container-medico .medico-informacion .info-titulo{
+    color: #0043A5;
+}
+.medico .container-medico .medico-informacion .info-detalle{
+    color: #667076;
+}
+.medico .medico-principal .medico-principal-info{
+    flex-direction: column;
+    gap: 10px;
+}
+.medico .container-medico .medico-informacion .informacion-detalle{
+    padding: 15px 0;
+
+    border-bottom: 1px solid #F3F3F3;
+}
+.medico .medico-principal .medico-principal-info h1{
+    font-size: 30px;
+    font-family: 'Work Sans Bold';
+    color: #0043A5;
+}
+.medico .medico-principal .medico-principal-info a{
+    width: 200px;
+    justify-content: center;
+    align-self: center;
+}
+
+.medico .medico-principal .medico-principal-info .medico-foto {
+    height: 270px;
+    width: 270px;
+
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+.medico .medico-principal .medico-principal-info .medico-foto img {
+    object-fit: cover;
+    object-position: top;
+    width: 100%;
+    height: auto;
+}
+.medico .medico-informacion .info-icon svg{
+    width: 19px;
+    height: auto;
+}
+.medico .medico-informacion .info-icon svg path{
+    fill: #84BD00;
+}
+
+.accordion-info{
+    border-radius: 0 0 9px 9px;
+    background-color: #fff;
+    padding: 0 30px 40px;
+    margin-bottom: 30px;
+}
+.accordion-info .accordion{
+    width: 100%;
+}
+.accordion-info .accordion-item svg{
+    width: 19px;
+    height: auto;
+}
+.accordion-button span{
+    color: #0043A5;
+    font-size: 18px;
+    font-family: 'Work Sans Bold';
+}
+.accordion-body p{
+    color: #667076;
+    font-size: 16px;
+    font-family: 'Work Sans Bold';
+}
+.accordion-item:first-of-type>.accordion-header .accordion-button{
+    padding: 20px 20px;
+}
+.accordion-button:not(.collapsed){
+    background-color: #fff;
+}
+.accordion-item:first-of-type>.accordion-header .accordion-button:focus:not(:focus-visible){
+    outline: none;
+    box-shadow: none;
+}
+.accordion-button:not(.collapsed) {
+    background-color: #fff;
+    color: #0043A5;
+    border-bottom: solid 1px #0043A5;
+}
+.accordion-item {
+    border-right: 0;
+    border-left: 0;
+    border-radius: 0;
+}
+
+.banner {
+    margin-bottom: 30px;
+}
 .banner .banner-servicios{
     display: flex;
+    padding: 0;
+    border-radius: 9px;
+    overflow: hidden;
 }
 .banner .banner-servicios .banner-img{
     width: 50%;
+    overflow: hidden;
 }
 .banner .banner-servicios .banner-img img{
     width: 100%;
 }
 .banner .banner-servicios .banner-texto{
     flex-direction: column;
-    
+
     width: 50%;
+    padding: 20px;
+    overflow: hidden;
 
     background-color: #fff;
+}
+.banner .banner-servicios .banner-texto h3{
+    padding: .5rem 1rem .5rem;
+
+    text-align: center;
+
+    color: #0043A5;
+    font-size: 30px;
+    font-family: 'Work Sans Bold';
+}
+.banner .banner-servicios .banner-texto p{
+    height: 90px;
+    overflow: hidden;
+    margin-top: .5rem;
+    text-align: center;
+
+    color: #0043A5;
+    font-size: 20px;
+    font-family: 'Work Sans Regular';
+}
+.banner .banner-servicios .banner-texto a{
+    justify-content: center;
+    align-self: center;
 }
