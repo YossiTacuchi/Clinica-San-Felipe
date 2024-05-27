@@ -41,6 +41,9 @@ p,i,
 .subtitle{
     color: #12489e;
 }
+p.strong{
+    font-family: 'Work Sans Extra Bold' !important;
+}
 h4{
     letter-spacing: -0.75px;
 }
@@ -101,7 +104,7 @@ input[type=email]:focus{
     max-width: 1357px;
 }
 .submenu{
-    visibility: hidden;
+    /* visibility: hidden; */
     max-width: none;
     background-color: #BFC8CF;
 }
