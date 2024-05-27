@@ -41,6 +41,7 @@
 
 .container-tags{
     display: flex;
+    justify-content: space-between;
 }
 .tags{
 
@@ -49,12 +50,13 @@
 
     background: #ffff;
     width: 276px;
+    height: fit-content;
     margin-right: 20px;
     padding: 1rem 1.5rem 0;
     border-radius: 9px;
     position: sticky;
     top: 0;
-    top: 12rem;
+    top: 13rem;
 }
 .tags ul{
     padding-left: 0;
