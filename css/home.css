@@ -5,10 +5,10 @@
     height: fit-content;
 }
 .carousel-control-prev-icon{
-    background-image: url(/images/slider-nav-left.svg);
+    background-image: url(../images/slider-nav-left.svg);
 }
 .carousel-control-next-icon{
-    background-image: url(/images/slider-nav-right.svg);
+    background-image: url(../images/slider-nav-right.svg);
 }
 
 .cta-home{
@@ -40,7 +40,7 @@
 .bg-block-1{
     margin-top: -60px;
     padding: 70px 20px 10px;
-    background-image: url(/images/bgBlockA.png);
+    background-image: url(../images/bgBlockA.png);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -128,7 +128,7 @@
     margin-top: 10px;
     border: solid 2px #84BD00;
 
-    background-image: url(/images/HOME-bloque-nacerseguro-Desktop2.png);
+    background-image: url(../images/HOME-bloque-nacerseguro-Desktop2.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -173,7 +173,7 @@
     overflow: hidden;
 }
 .bg-block-3-card{
-    background-image: url(/images/christin-hume-hBuwVLcYTnA-unsplash.jpg);
+    background-image: url(../images/christin-hume-hBuwVLcYTnA-unsplash.jpg);
     background-size: cover;
     background-position: center;
     padding: 1rem;
