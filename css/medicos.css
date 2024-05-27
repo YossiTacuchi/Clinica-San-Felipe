@@ -1,0 +1,116 @@
+.banner-medicos{
+    height: 440px;
+
+    background-image: url(../images/banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.banner-medicos-texto{
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+
+    width: 465px;
+    height: 100%;
+}
+.banner-medicos-texto h1{
+    font-size: 48px;
+    font-family: 'Work Sans Bold';
+    color: #0043a5;
+}
+.banner-medicos-texto p{
+    font-size: 20px;
+    font-family: 'Work Sans Regular';
+
+    color: #0043a5;
+}
+
+.medicos-texto{
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+
+    padding: 35px 0 50px;
+}
+.medicos-texto h2{
+    font-size: 30px;
+    font-family: 'Work Sans Bold';
+
+    color: #0043a5;
+}
+.medicos-texto p{
+    font-size: 20px;
+    font-family: 'Work Sans Regular';
+    text-align: center;
+
+    color: #0043a5;
+}
+
+.cta-medico{
+    gap: 60px;
+
+    position: relative;
+    width: 100%;
+    padding: 1.3rem 1.5rem 1.4rem;
+    margin-top: -40px;
+    border-radius: 4px 4px 4px 30px !important;
+
+    background-color: #12489e;
+}
+.cta-medico .text-form{
+
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Work Sans Medium';
+}
+.form-search-consulta{
+    width: 25%;
+    align-items: center;
+    gap: 10px;
+    padding: 0 15px;
+    height: 50px;
+    border-radius: 4px 4px 4px 30px !important;
+}
+
+.lista .lista-resultado{
+    justify-content: space-between;
+    padding: 20px;
+}
+.lista .lista-resultado .avatar{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.lista .lista-resultado .avatar img{
+    width: 100%;
+    height: fit-content;
+}
+
+@media all and (max-width: 991px){
+    .banner-medicos{
+        height: 280px;
+        background-position: 85%;
+    }
+    .banner-medicos-texto{
+        justify-content: flex-start;
+
+        padding-top: 30px;
+        width: 240px;
+    }
+    .banner-medicos-texto h1{
+        font-size: 26px;
+    }
+    .banner-medicos-texto p{
+        font-size: 14px;
+    }
+
+    .medicos-texto h2{
+        font-size: 22px;
+    }
+
+    .medicos-texto{
+        padding: 20px 0 0;
+    }
+}
