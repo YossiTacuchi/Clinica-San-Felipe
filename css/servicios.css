@@ -31,14 +31,39 @@
 .ofrecemos-texto-2{
     flex-direction: column;
 }
+
+.sub-servicios-texto h3{
+    width: 720px;
+
+    font-size: 36px;
+    font-family: 'Work Sans Bold';
+
+    color: #0043a5;
+}
+.sub-servicios{
+    margin-bottom: 30px;
+}
 .sub-servicios-texto{
     align-items: center;
     text-align: center;
+    margin-bottom: 80px;
 }
 .sub-servicios,
 .sub-servicios-texto-2{
     flex-direction: column;
     align-items: center;
+}
+.sub-servicios-texto-2 h4{
+    font-size: 30px;
+    font-family: 'Work Sans Bold';
+
+    color: #0043a5;
+}
+.sub-servicios-texto-2 p{
+    font-size: 20px;
+    font-family: 'Work Sans Regular';
+
+    color: #0043a5;
 }
 .sub-servicios-items{
     flex-direction: row;
@@ -52,7 +77,7 @@
 
     position: relative;
     text-decoration: none;
-    padding: 1rem;
+    padding: 1rem 1rem 2rem;
 
     width: 260px;
     min-height: 220px;
@@ -63,6 +88,11 @@
 
     background-color: #ffff;
     transition: .25s all;
+}
+.sub-servicios-items .item:hover{
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.4);
+    transition: .25s all;
+    transform: scale(0.98);
 }
 .sub-servicios-items .item img{
     min-height: 75px;
@@ -88,4 +118,12 @@
     border-radius: 3px;
     width: fit-content !important;
     margin-top: 10px;
+}
+@media all and (max-width: 991px){
+    .sub-servicios-texto h3{
+        width: 100%;
+    }
+    .sub-servicios-items .item{
+        width: 100%;
+    }
 }
