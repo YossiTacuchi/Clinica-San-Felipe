@@ -1,0 +1,116 @@
+.banner-nosotros{
+    height: 440px;
+
+    background-image: url(../images/Consulta_virtual.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.banner-nosotros-texto{
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+
+    width: 465px;
+    height: 100%;
+}
+.banner-nosotros-texto h1{
+    font-size: 48px;
+    font-family: 'Work Sans Bold';
+    color: #0043a5;
+}
+.banner-nosotros-texto p{
+    font-size: 20px;
+    font-family: 'Work Sans Regular';
+
+    color: #0043a5;
+}
+
+.breadcrumbs{
+    gap: 5px;
+    font-size: 16px;
+    font-family: 'Work Sans Bold';
+}
+.breadcrumbs .bc-link{
+    text-decoration: none;
+    color: #667076;
+}
+.breadcrumbs .bc-active{
+    color: #0043a5;
+}
+
+.container-tags{
+    display: flex;
+}
+.tags{
+
+    position: sticky;
+    top: 100px; /* Cambia a 'top: 0;' si quieres que se adhiera a la parte superior */
+
+    background: #ffff;
+    width: 276px;
+    margin-right: 20px;
+    padding: 1rem 1.5rem 0;
+    border-radius: 9px;
+    position: sticky;
+    top: 0;
+    top: 12rem;
+}
+.tags ul{
+    padding-left: 0;
+}
+.tags ul li{
+    list-style: none;
+}
+.tags ul li:not(:last-child){
+    border-bottom: 1px solid #0043A5;
+}
+.tags ul li a{
+    text-decoration: none;
+
+    font-family: 'Work Sans Bold';
+    color: #565859;
+    padding: 1rem 0;
+    display: block;
+}
+.contenido-servicio{
+    flex-direction: column;
+
+    padding: 1.5rem;
+    width: 820px;
+}
+.contenido-servicio h4{
+    margin-bottom: 10px;
+
+    font-size: 30px;
+    font-family: 'Work Sans Extra Bold';
+    color: #0043A5;
+}
+.contenido-servicio p{
+    font-size: 18px;
+    font-family: 'Work Sans Bold';
+    color: #667076;
+}
+.contenido-servicio ul li{
+    
+    display: flex;
+    align-items: center;
+
+    list-style: none;
+    padding: 1rem;
+    margin-bottom: 5px;
+
+    font-size: 20px;
+    font-family: 'Work Sans Bold';
+    color: #0043A5;
+    background: #F3F3F3;
+}
+.contenido-servicio ul li{
+    gap: 15px;
+}
+.contenido-servicio .list-tag{
+    padding-left: 0;
+}
+.contenido-servicio ul li{
+    
+}
