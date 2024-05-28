@@ -74,7 +74,7 @@ section.main {
     justify-content: space-between;
 
     padding: 30px 15px;
-    width: 315px;
+    width: calc( 100%/2 - 12px);
     border: 3px solid #000;
     border-radius: 4px 4px 30px 4px;
     text-decoration: none;
