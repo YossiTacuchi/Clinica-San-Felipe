@@ -178,6 +178,29 @@ input[type=email]:focus{
     justify-content: center;
     padding: 12px 0;
 }
+.menu-mobile{
+    display: none;
+
+    justify-content: unset;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 20px;
+    padding: 40px 15px;
+    position: fixed;
+    z-index: 2000;
+    transition: all 0.3s ease;
+    top: 0;
+    bottom: 0;
+    right: -30%;
+    width: 0;
+    height: 100vh !important;
+    display: block;
+    background-color: #fff;
+}
+.menu-mobile.show{
+    right: 0;
+    width: 80%;
+}
 .telefono{
     display: flex;
 }
@@ -386,6 +409,27 @@ input[type=email]:focus{
     .list-menu, .list-submenu{
         padding: 0;
         display: none;
+    }
+    .menu-mobile{
+        display: flex;
+    }
+    .menu-mobile .telefono{
+        display: block;
+    }
+    .menu-mobile .telefono a img{
+        width: 28px;
+    }
+    .menu-mobile .telefono a{
+        font-size: 16px;
+    }
+    .menu-mobile .list-menu{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .menu-mobile .list-menu .item{
+        display: flex;
+        align-self: flex-end;
     }
     .navbar-toggler{
         display: block;

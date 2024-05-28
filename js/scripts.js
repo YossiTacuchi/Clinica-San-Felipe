@@ -13,6 +13,21 @@ $(document).ready(function() {
     lastScrollTop = scrollTop;
   });
 
+  $('.navbar-toggler').click(function(){
+    if($('.menu-mobile').hasClass('show')){
+      $('.menu-mobile').removeClass('show');
+    }else{
+      $('.menu-mobile').addClass('show');
+    }
+  });
+  $('.btn-close').click(function(){
+    if($('.menu-mobile').hasClass('show')){
+      $('.menu-mobile').removeClass('show');
+    }else{
+      $('.menu-mobile').addClass('show');
+    }
+  });
+
   var scrollToTopBtn = $('.scroll-to-top');
 
     $(window).scroll(function() {
