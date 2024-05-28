@@ -26,6 +26,73 @@
     color: #0043a5;
 }
 
+.servicios-texto{
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+
+    padding: 40px 0 30px;
+}
+.servicios-texto h2{
+    text-align:  center;
+    font-size: 20px;
+    font-family: 'Work Sans Medium';
+
+    color: #0043a5;
+}
+.servicios-texto p{
+    font-size: 16px;
+    font-family: 'Work Sans Regular';
+    text-align: center;
+
+    color: #667076;
+}
+
+.accordion-convenios{
+    border-radius: 0 0 9px 9px;
+    background-color: #fff;
+    padding: 0 30px 40px;
+    margin-bottom: 30px;
+}
+.accordion-convenios .accordion{
+    width: 100%;
+}
+.accordion-convenios .accordion-item svg{
+    width: 19px;
+    height: auto;
+}
+.accordion-button span{
+    color: #0043A5;
+    font-size: 18px;
+    font-family: 'Work Sans Bold';
+}
+.accordion-body p{
+    color: #667076;
+    font-size: 16px;
+    font-family: 'Work Sans Bold';
+}
+.accordion-item:first-of-type>.accordion-header .accordion-button{
+    padding: 20px 20px;
+}
+.accordion-button:not(.collapsed){
+    background-color: #fff;
+}
+.accordion-item:first-of-type>.accordion-header .accordion-button:focus:not(:focus-visible){
+    outline: none;
+    box-shadow: none;
+}
+.accordion-button:not(.collapsed) {
+    background-color: #fff;
+    color: #0043A5;
+    border-bottom: solid 1px #0043A5;
+}
+.accordion-item {
+    border-right: 0;
+    border-left: 0;
+    border-radius: 0;
+}
+
+
 .banner {
     margin-bottom: 30px;
 }
@@ -47,17 +114,17 @@
     flex-direction: column;
 
     width: 50%;
-    padding: 20px;
+    padding: 40px 20px;
     overflow: hidden;
 
-    background-color: #fff;
+    background-color: #0043A5;
 }
 .banner .banner-servicios .banner-texto h3{
     padding: .5rem 1rem .5rem;
 
     text-align: center;
 
-    color: #0043A5;
+    color: #fff;
     font-size: 30px;
     font-family: 'Work Sans Bold';
 }
@@ -67,11 +134,45 @@
     margin-top: .5rem;
     text-align: center;
 
-    color: #0043A5;
+    color: #fff;
     font-size: 20px;
     font-family: 'Work Sans Regular';
 }
 .banner .banner-servicios .banner-texto a{
     justify-content: center;
     align-self: center;
+    margin-bottom: 10px;
+}
+
+
+@media all and (max-width: 991px){
+    .banner-nosotros{
+        height: 280px;
+        background-position: 85%;
+    }
+    .banner-nosotros-texto{
+        justify-content: flex-start;
+
+        padding-top: 30px;
+        width: 240px;
+    }
+    .banner-nosotros-texto h1{
+        font-size: 26px;
+    }
+    .banner-nosotros-texto p{
+        font-size: 14px;
+    }
+
+    .banner .banner-servicios .banner-img{
+        display: none !important;
+    }
+    .banner .banner-servicios .banner-texto{
+        width: 100%;
+    }
+    .banner .banner-servicios .banner-texto h3{
+        font-size: 22px;
+    }
+    .banner .banner-servicios .banner-texto p{
+        font-size: 14px;
+    }
 }
