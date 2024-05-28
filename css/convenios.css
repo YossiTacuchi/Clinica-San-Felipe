@@ -1,0 +1,77 @@
+.banner-nosotros{
+    height: 440px;
+
+    background-image: url(../images/banner_convenios.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.banner-nosotros-texto{
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+
+    width: 465px;
+    height: 100%;
+}
+.banner-nosotros-texto h1{
+    font-size: 48px;
+    font-family: 'Work Sans Bold';
+    color: #0043a5;
+}
+.banner-nosotros-texto p{
+    font-size: 20px;
+    font-family: 'Work Sans Regular';
+
+    color: #0043a5;
+}
+
+.banner {
+    margin-bottom: 30px;
+}
+.banner .banner-servicios{
+    display: flex;
+    padding: 0;
+    border-radius: 9px;
+    overflow: hidden;
+}
+.banner .banner-servicios .banner-img{
+    width: 50%;
+    overflow: hidden;
+}
+.banner .banner-servicios .banner-img img{
+    width: 100%;
+    object-fit: cover;
+}
+.banner .banner-servicios .banner-texto{
+    flex-direction: column;
+
+    width: 50%;
+    padding: 20px;
+    overflow: hidden;
+
+    background-color: #fff;
+}
+.banner .banner-servicios .banner-texto h3{
+    padding: .5rem 1rem .5rem;
+
+    text-align: center;
+
+    color: #0043A5;
+    font-size: 30px;
+    font-family: 'Work Sans Bold';
+}
+.banner .banner-servicios .banner-texto p{
+    height: 90px;
+    overflow: hidden;
+    margin-top: .5rem;
+    text-align: center;
+
+    color: #0043A5;
+    font-size: 20px;
+    font-family: 'Work Sans Regular';
+}
+.banner .banner-servicios .banner-texto a{
+    justify-content: center;
+    align-self: center;
+}

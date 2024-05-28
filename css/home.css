@@ -429,4 +429,7 @@ ul.list-sede {
     .container-block-3{
         flex-direction: column;
     }
+    .sede-card{
+        margin: auto;
+    }
 }
