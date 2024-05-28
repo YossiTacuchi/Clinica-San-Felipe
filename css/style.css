@@ -388,6 +388,11 @@ input[type=email]:focus{
     }
 }
 @media all and (max-width: 991px){
+    .scroll-to-top{
+        bottom: 15px;
+        right: 15px;
+        margin-right: 0;
+    }
     .logo{
         width: 140px;
     }

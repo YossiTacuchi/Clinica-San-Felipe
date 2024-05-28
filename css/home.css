@@ -1,14 +1,25 @@
-.carousel-item{
-    height: 439px;
+section.main {
+    position: relative;
+    z-index: 0;
 }
-.carousel-item img{
-    height: fit-content;
+.owl-carousel.owl-carousel-home .owl-nav button{
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    box-shadow: none !important;
+    width: 2rem !important;
+    height: 2rem !important;
 }
-.carousel-control-prev-icon{
-    background-image: url(../images/slider-nav-left.svg);
+.owl-carousel.owl-carousel-home .owl-nav button.owl-next{
+    background-color: transparent !important;
+    background-image: url(../images/slider-nav-right.svg) !important;
 }
-.carousel-control-next-icon{
-    background-image: url(../images/slider-nav-right.svg);
+.owl-carousel.owl-carousel-home .owl-nav button.owl-prev{
+    background-color: transparent !important;
+    background-image: url(../images/slider-nav-left.svg) !important;
+}
+.owl-carousel-home .owl-nav button span{
+    font-size: 0;
+    opacity: 0;
 }
 
 .cta-home{
@@ -366,9 +377,14 @@ ul.list-sede {
         flex-direction: column;
         width: 350px;
         gap: 10px;
+
+        margin-top: -10px;
     }
     .cta-home .text-form{
         font-size: 14px;
+    }
+    .bg-block-1{
+        padding: 70px 0 10px;
     }
     .block-1-texto{
         justify-content: center;
@@ -379,7 +395,7 @@ ul.list-sede {
         text-align: center;
     }
     .card-home{
-        width: 47%;
+        width: calc( 100%/2 - 12px);
     }
     .bg-block-2{
         justify-content: center;
