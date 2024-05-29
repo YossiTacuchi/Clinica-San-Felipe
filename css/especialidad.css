@@ -1,0 +1,136 @@
+.banner-nosotros{
+    height: 440px;
+
+    background-image: url(../images/banner_convenios.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.banner-nosotros-texto{
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+
+    width: 465px;
+    height: 100%;
+}
+.banner-nosotros-texto h1{
+    font-size: 48px;
+    font-family: 'Work Sans Bold';
+    color: #0043a5;
+}
+.banner-nosotros-texto p{
+    font-size: 20px;
+    font-family: 'Work Sans Regular';
+
+    color: #0043a5;
+}
+
+.cta-medico{
+    margin: 60px 0 20px;
+    gap: 60px;
+    justify-content: space-between;
+    align-items: center;
+
+    position: relative;
+    width: 100%;
+    padding: 1.3rem 1.5rem 1.4rem;
+    border-radius: 4px 4px 4px 30px !important;
+
+    background-color: #12489e;
+}
+.cta-medico .text-form{
+
+    color: #fff;
+    font-size: 14px;
+    font-family: 'Work Sans Medium';
+}
+.form-search-consulta{
+    width: 50%;
+    align-items: center;
+    gap: 10px;
+    padding: 0 15px;
+    height: 50px;
+    border-radius: 4px 4px 4px 30px !important;
+}
+
+.banner {
+    margin-bottom: 30px;
+}
+.banner .banner-servicios{
+    display: flex;
+    padding: 0;
+    border-radius: 9px;
+    overflow: hidden;
+}
+.banner .banner-servicios .banner-img{
+    width: 50%;
+    overflow: hidden;
+}
+.banner .banner-servicios .banner-img img{
+    width: 100%;
+    object-fit: cover;
+}
+.banner .banner-servicios .banner-texto{
+    flex-direction: column;
+
+    width: 50%;
+    padding: 40px 20px;
+    overflow: hidden;
+
+    background-color: #fff;
+}
+.banner .banner-servicios .banner-texto h3{
+    padding: .5rem 1rem .5rem;
+
+    text-align: center;
+
+    color: #0043A5;
+    font-size: 30px;
+    font-family: 'Work Sans Bold';
+}
+.banner .banner-servicios .banner-texto p{
+    height: 90px;
+    overflow: hidden;
+    margin-top: .5rem;
+    text-align: center;
+
+    color: #0043A5;
+    font-size: 20px;
+    font-family: 'Work Sans Regular';
+}
+.banner .banner-servicios .banner-texto a{
+    justify-content: center;
+    align-self: center;
+    margin-bottom: 10px;
+}
+
+@media all and (max-width: 991px){
+    .banner-nosotros{
+        height: 280px;
+        background-position: 85%;
+    }
+    .banner-nosotros-texto{
+        justify-content: flex-start;
+
+        padding-top: 30px;
+        width: 240px;
+    }
+    .banner-nosotros-texto h1{
+        font-size: 26px;
+    }
+    .banner-nosotros-texto p{
+        font-size: 14px;
+    }
+
+    .cta-medico .text-form{
+        margin: auto;
+
+        text-align: center;
+        font-size: 14px;
+    }
+    .cta-medico{
+        flex-direction: column;
+        gap: 20px;
+    }
+}
