@@ -54,6 +54,86 @@
     border-radius: 4px 4px 4px 30px !important;
 }
 
+
+.sub-servicios-texto h3{
+    width: 720px;
+
+    font-size: 36px;
+    font-family: 'Work Sans Bold';
+
+    color: #0043a5;
+}
+.sub-servicios{
+    margin-bottom: 30px;
+}
+.sub-servicios-texto{
+    align-items: center;
+    text-align: center;
+    margin-bottom: 80px;
+}
+.sub-servicios,
+.sub-servicios-texto-2{
+    flex-direction: column;
+    align-items: center;
+}
+.sub-servicios-texto-2 h4{
+    font-size: 30px;
+    font-family: 'Work Sans Bold';
+
+    color: #0043a5;
+}
+.sub-servicios-texto-2 p{
+    font-size: 20px;
+    font-family: 'Work Sans Regular';
+
+    color: #0043a5;
+}
+.sub-servicios-items{
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+.sub-servicios-items .item {
+    flex-direction: column;
+    gap: 20px;
+
+    position: relative;
+    text-decoration: none;
+    padding: 1rem 1rem 1.5rem;
+
+    width: 260px;
+    min-height: 220px;
+
+    border-radius: 4px 4px 30px 4px;
+    border: 3px solid #84BD00 !important;
+    
+
+    background-color: #ffff;
+    transition: .25s all;
+}
+.sub-servicios-items .item:hover{
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.4);
+    transition: .25s all;
+    transform: scale(0.98);
+}
+.sub-servicios-items .item img{
+    min-height: 75px;
+    max-height: 75px;
+}
+.sub-servicios-items .item h4{
+    height: 75px;
+
+    text-decoration: underline;
+    font-size: 22px;
+    font-family: 'Work Sans Bold';
+
+    color: #0043a5;
+}
+.sub-servicios-items .item .sub-servicios-locales{
+    gap: 5px;
+}
+
 .banner {
     margin-bottom: 30px;
 }
@@ -121,6 +201,13 @@
     }
     .banner-nosotros-texto p{
         font-size: 14px;
+    }
+
+    .sub-servicios-texto h3{
+        width: 100%;
+    }
+    .sub-servicios-items .item{
+        width: 100%;
     }
 
     .cta-medico .text-form{
