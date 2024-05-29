@@ -26,6 +26,15 @@
     color: #0043a5;
 }
 
+.banner-profesionales{
+    height: 307px;
+
+    background-image: url(../images/banner_especialidades.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 .cta-medico{
     margin: 60px 0 20px;
     gap: 60px;
