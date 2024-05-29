@@ -93,6 +93,7 @@
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
+    margin-bottom: 40px;
 }
 .sub-servicios-items .item {
     flex-direction: column;
@@ -123,6 +124,7 @@
 }
 .sub-servicios-items .item h4{
     height: 75px;
+    margin-bottom: 0;
 
     text-decoration: underline;
     font-size: 22px;
@@ -132,6 +134,28 @@
 }
 .sub-servicios-items .item .sub-servicios-locales{
     gap: 5px;
+}
+
+.pagination li a {
+    display: inline;
+    margin-right: 5px;
+    padding: 5px 10px;
+    background-color: #0043a5;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+}
+.pagination .page-item.disabled{
+    display: none;
+}
+.pagination li.active a{
+    background-color: #84BD00;
+    border: 1px solid #ccc;
+    color: #fff;
+}
+ul.pagination {
+    margin-bottom: 30px;
 }
 
 .banner {
