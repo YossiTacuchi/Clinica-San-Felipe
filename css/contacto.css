@@ -1,0 +1,212 @@
+.banner-nosotros{
+    height: 440px;
+
+    background-image: url(../images/banner_convenios.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.banner-nosotros-texto{
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+
+    width: 465px;
+    height: 100%;
+}
+.banner-nosotros-texto h1{
+    font-size: 48px;
+    font-family: 'Work Sans Bold';
+    color: #0043a5;
+}
+.banner-nosotros-texto p{
+    font-size: 20px;
+    font-family: 'Work Sans Regular';
+
+    color: #0043a5;
+}
+
+.servicios-texto{
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+
+    padding: 40px 0 30px;
+}
+.servicios-texto h2{
+    text-align:  center;
+    font-size: 20px;
+    font-family: 'Work Sans Medium';
+
+    color: #0043a5;
+}
+.servicios-texto p{
+    font-size: 16px;
+    font-family: 'Work Sans Regular';
+    text-align: center;
+
+    color: #667076;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-bottom: 60px;
+}
+.form .inputs{
+    display: flex;
+    gap: 35px;
+}
+.form, .form p,
+input, textarea{
+    font-size: 16px;
+    font-family: 'Work Sans Medium';
+
+    color: #667076;
+}
+input.form-text{
+    border: 1px solid #A8B2BB;
+    border-radius: 100px;
+    color: #91989C;
+    font-size: 1rem;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 1rem;
+    height: 51px;
+    text-align-last: center;
+    background: #ffff;
+    padding: 10px;
+    margin-top: 0;
+}
+textarea.form-textarea {
+    min-height: 251px;
+    border-radius: 9px 9px 40px 9px;
+    resize: none;
+    border: 1px solid #A8B2BB;
+    padding: 1rem 1rem;
+    width: 100%;
+}
+input.form-checkbox {
+    width: 28px;
+    height: 28px;
+    margin-bottom: 0;
+    margin-right: 10px;
+    position: relative;
+}
+input.form-checkbox:before {
+    left: -2px;
+    top: -1px;
+}
+input.form-checkbox:before {
+    content: '';
+    height: 31px;
+    width: 31px;
+    z-index: -1;
+    position: absolute;
+    background: #0043A5;
+}
+.form-cta{
+    justify-content: space-between;
+}
+.form-cta a.btn{
+    align-self: flex-start;
+    justify-content: center;
+    width: 220px;
+    padding: 12px;
+}
+
+.banner {
+    margin-bottom: 30px;
+}
+.banner .banner-servicios{
+    display: flex;
+    padding: 0;
+    border-radius: 9px;
+    overflow: hidden;
+}
+.banner .banner-servicios .banner-img{
+    width: 50%;
+    overflow: hidden;
+}
+.banner .banner-servicios .banner-img img{
+    width: 100%;
+    object-fit: cover;
+}
+.banner .banner-servicios .banner-texto{
+    flex-direction: column;
+
+    width: 50%;
+    padding: 40px 20px;
+    overflow: hidden;
+
+    background-color: #0043A5;
+}
+.banner .banner-servicios .banner-texto h3{
+    padding: .5rem 1rem .5rem;
+
+    text-align: center;
+
+    color: #fff;
+    font-size: 30px;
+    font-family: 'Work Sans Bold';
+}
+.banner .banner-servicios .banner-texto p{
+    height: 90px;
+    overflow: hidden;
+    margin-top: .5rem;
+    text-align: center;
+
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Work Sans Regular';
+}
+.banner .banner-servicios .banner-texto a{
+    justify-content: center;
+    align-self: center;
+    margin-bottom: 10px;
+}
+
+@media all and (max-width: 991px){
+    .banner-nosotros{
+        height: 280px;
+        background-position: 85%;
+    }
+    .banner-nosotros-texto{
+        justify-content: flex-start;
+
+        padding-top: 30px;
+        width: 240px;
+    }
+    .banner-nosotros-texto h1{
+        font-size: 26px;
+    }
+    .banner-nosotros-texto p{
+        font-size: 14px;
+    }
+
+    .banner .banner-servicios .banner-img{
+        display: none !important;
+    }
+    .banner .banner-servicios .banner-texto{
+        width: 100%;
+    }
+    .banner .banner-servicios .banner-texto h3{
+        font-size: 22px;
+    }
+    .banner .banner-servicios .banner-texto p{
+        font-size: 14px;
+    }
+
+    .form .inputs{
+        flex-direction: column;
+        gap: 0px;
+    }
+    .form-cta{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .cta{
+        justify-content: center;
+    }
+}
