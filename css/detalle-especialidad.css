@@ -1,0 +1,280 @@
+
+
+.contenido-servicio .item {
+    flex-direction: column;
+    gap: 20px;
+
+    position: relative;
+    text-decoration: none;
+    padding: 1rem 1rem 1.5rem;
+    margin-bottom: 40px;
+
+    width: 380px;
+    min-height: 177px;
+
+    border-radius: 4px 4px 30px 4px;
+    border: 3px solid #84BD00 !important;
+    
+
+    background-color: #ffff;
+    transition: .25s all;
+}
+
+.contenido-servicio  .item img{
+    min-height: 75px;
+    max-height: 75px;
+}
+.contenido-servicio .item h4{
+
+    margin-bottom: 0;
+
+    font-size: 22px;
+    font-family: 'Work Sans Bold';
+
+    color: #0043a5;
+}
+.contenido-servicio  .item .sub-servicios-locales{
+    gap: 5px;
+}
+
+
+
+.banner-nosotros{
+    height: 440px;
+
+    background-image: url(../images/Gastroenterología-Banner-Desktop.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.banner-nosotros-texto{
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+
+    width: 465px;
+    height: 100%;
+}
+.banner-nosotros-texto h1{
+    font-size: 48px;
+    font-family: 'Work Sans Bold';
+    color: #0043a5;
+}
+.banner-nosotros-texto p{
+    font-size: 20px;
+    font-family: 'Work Sans Regular';
+
+    color: #0043a5;
+}
+
+
+
+.container-tags{
+    padding: 30px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.tags{
+
+    position: sticky;
+    top: 12rem; /* Cambia a 'top: 0;' si quieres que se adhiera a la parte superior */
+
+    background: #ffff;
+    width: 276px;
+    height: fit-content;
+    margin-right: 20px;
+    padding: 1rem 1.5rem 0;
+    border-radius: 9px;
+}
+.tags ul{
+    padding-left: 0;
+}
+.tags ul li{
+    list-style: none;
+}
+.tags ul li:not(:last-child){
+    border-bottom: 1px solid #0043A5;
+}
+.tags ul li a{
+    text-decoration: none;
+
+    font-family: 'Work Sans Bold';
+    color: #565859;
+    padding: 1rem 0;
+    display: block;
+}
+.contenido-servicio{
+    flex-direction: column;
+
+    padding: 1.5rem;
+    width: 820px;
+}
+.contenido-servicio h4{
+    margin-bottom: 10px;
+
+    font-size: 30px;
+    font-family: 'Work Sans Extra Bold';
+    color: #0043A5;
+}
+.contenido-servicio p{
+    font-size: 18px;
+    font-family: 'Work Sans Bold';
+    color: #667076;
+}
+.contenido-servicio ul li{
+    
+    display: flex;
+    align-items: center;
+
+    list-style: none;
+    padding: 1rem;
+    margin-bottom: 5px;
+
+    font-size: 20px;
+    font-family: 'Work Sans Bold';
+    color: #0043A5;
+    background: #F3F3F3;
+}
+.contenido-servicio ul li{
+    gap: 15px;
+}
+.contenido-servicio .list-tag{
+    padding-left: 0;
+}
+.contenido-servicio ul li{
+    
+}
+
+.img-reservar{
+    width: 112px;
+}
+
+.lista-resultado {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 30px 0;
+}
+.lista-resultado .lista{
+    font-size: 16px;
+    padding: 1rem;
+    border-radius: 3px;
+
+    background-color: #ffff;
+    border: 1px solid #84BD00 !important;
+}
+.lista-resultado .lista{
+    justify-content: space-between;
+    padding: 20px;
+}
+.lista-resultado .lista .descripcion {
+    gap: 0px;
+}
+.lista-resultado .lista .descripcion .area{
+    font-size: 16px;
+    font-family: 'Work Sans Medium';
+
+    color: #555555;
+}
+.lista-resultado .lista .descripcion .nombre{
+    font-size: 20px;
+    font-family: 'Work Sans Bold';
+
+    color: #0043a5;
+}
+.lista-resultado .lista .avatar{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.lista-resultado .lista .avatar img{
+    width: 100%;
+    height: fit-content;
+}
+.lista-resultado .lista .ctas{
+    flex-direction: column;
+    align-self: stretch;
+    justify-content: stretch;
+    gap: 10px;
+}
+.lista-resultado .lista .ctas a{
+    width: 100%;
+    justify-content: center;
+}
+
+@media all and (max-width: 991px){
+    
+    .tags{
+        position: relative;
+        top: 0;
+        width: 100%;
+        padding: 0;
+        margin-bottom: 30px;
+        background-color: transparent;
+    }
+    .list-tags{
+        display: flex;
+        
+    }
+    .tags ul {
+        width: 100%;
+        overflow: auto;
+    }
+    .tags ul li a{
+        white-space: nowrap;
+        padding: 20px;
+        
+        font-size: 14px;
+        font-family: 'Work Sans Extra Bold';
+        color: #84BD00;
+    }
+    .tags ul li{
+        display: flex;
+
+        padding: 0;
+        border-radius: 3px;
+        
+        padding: 0rem .5rem;
+        text-align: center;
+        height: 60px;
+        margin: 0 10px;
+
+        background-color: #ffff;
+        border: 1px solid #84BD00;
+    }
+    .container-tags{
+        padding: 20px 0;
+        flex-direction: column;
+    }
+    .contenido-servicio{
+        width: 100%;
+    }
+
+    .contenido-servicio .item{
+        width: 100%;
+    }
+    
+    .contenido-servicio h4,
+    .contenido-servicio p,
+    .contenido-servicio ul li{
+        font-size: 16px;
+    }
+    
+    .lista-resultado .lista{
+        flex-direction: column;
+        gap: 30px;
+    }
+    .lista-resultado .lista .ctas{
+        justify-content: space-between;
+    }
+    .lista-resultado .lista .descripcion{
+        flex: 1;
+    }
+    .lista-resultado .lista .ctas{
+        flex-direction: row;
+    }
+    .lista-resultado .lista .ctas a{
+        font-size: 14px;
+    }
+}
