@@ -28,11 +28,28 @@
 
 .banner-profesionales{
     height: 307px;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 9px;
+    overflow: hidden;
 
     background-image: url(../images/banner_especialidades.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+}
+.banner2-texto{
+    width: 600px;
+}
+.banner2-texto h3{
+    font-size: 30px;
+    font-family: 'Work Sans Bold';
+
+    color: #fff;
+}
+.banner2-texto a{
+    align-self: flex-start;
 }
 
 .cta-medico{
@@ -158,7 +175,8 @@
 .pagination .page-item.disabled{
     display: none;
 }
-.pagination li.active a{
+.pagination li.active a,
+.pagination li:hover a{
     background-color: #84BD00;
     border: 1px solid #ccc;
     color: #fff;
@@ -234,6 +252,16 @@ ul.pagination {
     }
     .banner-nosotros-texto p{
         font-size: 14px;
+    }
+
+    .banner-profesionales{
+        height: 257px;
+    }
+    .banner2-texto{
+        width: 90%;
+    }
+    .banner2-texto h3{
+        font-size: 18px;
     }
 
     .sub-servicios-texto h3{

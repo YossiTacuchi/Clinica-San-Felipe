@@ -134,7 +134,8 @@
 .pagination .page-item.disabled{
     display: none;
 }
-.pagination li.active a{
+.pagination li.active a,
+.pagination li:hover a{
     background-color: #84BD00;
     border: 1px solid #ccc;
     color: #fff;
