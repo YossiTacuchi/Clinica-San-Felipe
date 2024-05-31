@@ -178,4 +178,7 @@ input.form-checkbox:before {
     
         font-size: 22px;
     }
+    .formulario-contacto .deco{
+        padding-bottom: 40px;
+    }
 }

@@ -109,7 +109,24 @@
 }
 
 @media all and (max-width: 991px){
+    .banner-nosotros{
+        height: 283px;
+    }
+    .banner-nosotros-texto{
+        flex-direction: column;
+        justify-content: center;
+        gap: 5px;
     
+        width: 100%;
+        height: 100%;
+    }
+    .banner-nosotros-texto h1{
+        font-size: 26px;
+    }
+    .banner-nosotros-texto p{
+        font-size: 14px;
+    }
+
     .tags{
         position: relative;
         top: 0;
