@@ -101,122 +101,43 @@
                 <div class="d-flex formulario-contacto">
 
                     <div class="d-flex deco">
-                        <div class="line"></div>
-                        <p>
-                            Datos personales
-                        </p>
-                        <div class="line"></div>
+                        <h2 class="title">Trabaja con nosotros</h2>
                     </div>
                     
                    
                     <form action="" class="form">
                         <div class="d-flex inputs">
-                            <div class="d-flex flex-column">
-                                <div class="d-flex row-inputs-3 gap-2">
-                                    <div class="d-flex">
-                                        <input type="text" id="nombres" name="nombres" value="" size="60" maxlength="50" placeholder="Ingresa tu nombre*" class="form-text required" required="required">
-                                    </div>
-                                    <div class="d-flex">
-                                        <input type="text" id="apellidoP" name="apellidoP" value="" size="60" maxlength="50" placeholder="Ingresa tus apellido paterno*" class="form-text required" required="required">
-                                    </div>
-                                    <div class="d-flex">
-                                        <input type="text" id="apellidoM" name="apellidom" value="" size="60" maxlength="50" placeholder="Ingresa tus apellido materno*" class="form-text required" required="required">
-                                    </div>
+
+                            <div class="d-flex flex-column gap-2">
+                                <div class="d-flex">
+                                    <input type="text" id="nombres" name="nombres" value="" size="60" maxlength="50" placeholder="Ingresa tu nombre*" class="form-text required" required="required">
                                 </div>
-                                <div class="d-flex row-inputs-3 gap-2">
-                                    <div class="d-flex flex-fill">
-                                        <input type="text" id="fecha" name="fecha" value="" size="60" maxlength="50" placeholder="dd/mm/aaaa" class="form-text required datepicker" required="required">
-                                    </div>
-                                    <div class="d-flex flex-fill">
-                                        <input type="number" id="dni" name="dni" value="" size="60" maxlength="50" placeholder="Indica tu DNI*" class="form-text required" required="required">
-                                    </div>
-                                    <div class="d-flex flex-fill">
-                                        <select name="sexo" id="sexo" class="form-text required">
-                                            <option value="">-Seleccionar-</option>
-                                            <option value="hombre">Hombre</option>
-                                            <option value="mujer">Mujer</option>
-                                        </select>
-                                    </div>
+                                <div class="d-flex">
+                                    <input type="text" id="apellido" name="apellido" value="" size="60" maxlength="50" placeholder="Ingresa tus apellido " class="form-text required" required="required">
                                 </div>
-                                
-                                <div class="d-flex row-inputs-2 gap-2">
-                                    <div class="d-flex ">
-                                        <input type="text" id="telefono" name="telefono" value="" size="60" maxlength="9" placeholder="Teléfono de contacto*" class="form-text required" required="required">
-                                    </div>
-                                    <div class="d-flex flex-fill">
-                                        <input type="email" id="correo_electronico" name="correo_electronico" value="" size="20" maxlength="120" placeholder="Email de contacto*" class="form-text required" required="required" >
-                                    </div>
+                                <div class="d-flex">
+                                    <input type="tel" id="telefono" name="telefono" value="" size="60" maxlength="50" placeholder="Indica un teléfono de contacto" class="form-text required" required="required">
                                 </div>
-                                
+                                <div class="d-flex flex-fill">
+                                    <input type="email" id="correo_electronico" name="correo_electronico" value="" size="20" maxlength="120" placeholder="Déjanos tu email" class="form-text required" required="required" >
+                                </div>
+                                <div class="d-flex">
+                                    <textarea id="comentario" name="comentario" rows="5" cols="60" placeholder="Escribe aquí tu mensaje" class="form-textarea"></textarea>
+                                </div>
                             </div>
                         </div>
-                    </form>
-
-
-                    <div class="d-flex deco">
-                        <div class="line"></div>
-                        <p>
-                            Datos de procedimiento (revisa los datos en tu órden médica)
-                        </p>
-                        <div class="line"></div>
-                    </div>
-                    
-                   
-                    <form action="" class="form">
-                        <div class="d-flex inputs">
-                            <div class="d-flex flex-column">
-
-                                <div class="d-flex row-inputs-2 gap-2">
-                                    <div class="d-flex ">
-                                        <input type="text" id="especialidad" name="especialidad" value="" size="60" maxlength="120" placeholder="Especialidad" class="form-text required" required="required">
-                                    </div>
-                                    <div class="d-flex flex-fill">
-                                        <input type="text" id="diagnostico" name="diagnostico" value="" size="20" maxlength="120" placeholder="Diagnostico" class="form-text required" required="required" >
-                                    </div>
-                                </div>
-
-                                <div class="d-flex row-inputs-3 gap-2">
-                                    <div class="d-flex">
-                                        <input type="text" id="dias" name="dias" value="" size="60" maxlength="50" placeholder="días de hospitalización" class="form-text required" required="required">
-                                    </div>
-                                    <div class="d-flex flex-fill">
-                                        <input type="text" id="fecha2" name="fecha2" value="" size="60" maxlength="50" placeholder="dd/mm/aaaa" class="form-text required datepicker" required="required">
-                                    </div>
-                                    <div class="d-flex">
-                                        <select name="sexo" id="sexo" class="form-text required">
-                                            <option value="" selected="selected">- Seleccionar -</option>
-                                            <option value="No">No</option>
-                                            <option value="Otro">Otro</option>
-                                            <option value="Colsanitas">Colsanitas</option>
-                                            <option value="La Positiva Seguros y Reaseguros">La Positiva Seguros y Reaseguros</option>
-                                            <option value="Mapfre Perú Cia. de Seguros y Reaseguros">Mapfre Perú Cia. de Seguros y Reaseguros</option>
-                                            <option value="Mapfre Perú S.A. Entidad Prestadora de Salud">Mapfre Perú S.A. Entidad Prestadora de Salud</option>
-                                            <option value="Oncosalud S.A.C">Oncosalud S.A.C</option>
-                                            <option value="Pacífico Peruano Suiza">Pacífico Peruano Suiza</option>
-                                            <option value="Pacífico EPS">Pacífico EPS</option>
-                                            <option value="Rimac Internacional Cia. de Seguros">Rimac Internacional Cia. de Seguros</option>
-                                            <option value="Rimac Internacional E.P.S">Rimac Internacional E.P.S</option>
-                                        </select>
-                                    </div>
-                                </div>
-
-                                <div class="d-flex row-inputs-3 gap-2">
-                                    <div class="d-flex flex-fill">
-                                        <input type="text" id="medico" name="medico" value="" size="60" maxlength="50" placeholder="Médico tratante" class="form-text required" required="required">
-                                    </div>
-                                    <div class="d-flex flex-fill">
-                                        <input type="text" id="intervencion" name="intervencion" value="" size="60" maxlength="50" placeholder="Nombre de la intervención" class="form-text required" required="required">
-                                    </div>
-                                    <div class="d-flex flex-fill flex-column align-items-end">
-                                        <input type="file" id="medico" name="medico" value="" size="60" maxlength="50" placeholder="Médico tratante" class="form-text required" required="required">
-                                        <span style="text-align: right; font-size: 12px;">
-                                            Máximo 1 fichero.<br>
-                                            límite de 2 MB. <br>
-                                            Tipos permitidos: jpg, pdf, doc, docx.
-                                        </span>
-                                    </div>
-                                </div>
-                                
+                        <div class="d-flex align-self-start">
+                            <div class="d-flex ">
+                                <input type="file" id="medico" name="medico" value="" size="60" maxlength="50" placeholder="Médico tratante" class="form-text required" required="required">
+                            </div>
+                        </div>
+                        <div class="d-flex flex-column">
+                            <div class="d-flex  flex-column align-items-end">
+                                <span style="text-align: right; font-size: 12px;">
+                                    Máximo 1 fichero.<br>
+                                    límite de 2 MB. <br>
+                                    Tipos permitidos: jpg, pdf, doc, docx.
+                                </span>
                             </div>
                         </div>
                         <div class="d-flex justify-content-center align-items-center pb-3 gap-1" style="width:100%;">
@@ -247,22 +168,6 @@
             </div>
         </section>
 
-        
-         <!--banner-->
-         <section class="banner">
-            <div class="container banner-servicios">
-                <div class="d-flex banner-img">
-                    <img src="images/banner-servicios-bottom.png" alt="">
-                </div>
-                <div class="d-flex banner-texto">
-                    <h3>¿Quieres conocer nuestras especialidades?
-                    </h3>
-                    <p>Contamos con más de 45 especialidades médicas para ti y tu familia.</p>
-                    <a href="" class="btn btn-primary-basic">Conoce nuestras especialidades aquí </a>
-                </div>
-            </div>
-        </section>
-        <!--fin banner-->
         
     </div>
 
