@@ -95,8 +95,9 @@
     font-size: 16px;
     font-family: 'Work Sans Bold';
 }
-.accordion-item:first-of-type>.accordion-header .accordion-button{
-    padding: 20px 20px;
+.accordion-item>.accordion-header .accordion-button,
+.accordion-body{
+    padding: 20px 50px;
 }
 .accordion-button:not(.collapsed){
     background-color: #fff;
@@ -114,6 +115,7 @@
     border-right: 0;
     border-left: 0;
     border-radius: 0;
+    border-top: 2px solid #0043A5 !important;
 }
 .accordion-button::after {
 
@@ -184,9 +186,26 @@
     .medico .container-medico .medico-informacion{
         padding: 30px 0;
     }
+
+    .medico .medico-principal .medico-principal-info{
+        gap: 25px;
+    }
+    .medico .medico-principal .medico-principal-info .medico-foto{
+        width: 200px;
+        height: 200px;
+    }
+    .medico .medico-principal .medico-principal-info h1{
+        font-size: 22px;
+    }
+
     .accordion-info{
         padding: 0 0 20px;
     }
+    .accordion-item>.accordion-header .accordion-button,
+    .accordion-body{
+        padding: 20px 15px;
+    }
+
     .banner .banner-servicios .banner-img{
         display: none !important;
     }
