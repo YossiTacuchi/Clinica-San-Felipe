@@ -51,8 +51,18 @@
     height: 100%;
 }
 
+.caracteristicas{
+    align-items: center;
+
+    padding-left: 3%;
+    padding-right: 3%;
+    gap: 5%;
+}
+.caracteristica-header{
+    padding-right: 10%;
+}
 .servicios-caracteristicas{
-    padding: 80px 0;
+    padding: 80px 0 40px;
 }
 .caracteristicas-texto{
     flex-direction: column;
@@ -103,10 +113,12 @@
 .beneficios .beneficios-list {
     flex-wrap: wrap;
     gap: 30px;
+    padding: 0 3%;
 }
 .beneficios .beneficios-texto{
     flex-direction: column;
     align-items: center;
+    padding: 0 3%;
 }
 .beneficios .beneficios-texto h2{
     padding: 20px 0 0;
@@ -120,7 +132,7 @@
     flex-direction: column;
     align-items: center;
 
-    padding: 20px 0;
+    padding: 20px 0 40px;
 
     font-size: 20px;
     font-family: 'Work Sans Regular';
@@ -192,6 +204,10 @@
     background-color: #12489e;
     padding: 60px 0 10px;
 }
+.container-especialidades{
+    margin: auto;
+    width: 94%;
+}
 .especialidades .especialidades-texto-button{
     justify-content: space-between;
     padding-bottom: 30px;
@@ -252,6 +268,7 @@
     position: relative;
     height: 565px;
     padding-bottom: 60px;
+    padding-left: 3%;
 }
 .mapa{
     position: relative;
@@ -369,6 +386,15 @@
     .beneficios-list .beneficio-item{
         width: calc( 50% - 15px)  !important;
     }
+
+    .caracteristicas{
+        padding-left: 0%;
+        padding-right: 0%;
+        gap: 0%;
+    }
+    .caracteristica-header{
+        padding-right: 0%;
+    }
     .caracteristicas-texto .list-caracteristicas{
         flex-direction: column;
     }
@@ -385,11 +411,24 @@
     .caracteristicas-texto p{
         font-size: 16px !important;
     }
+
     .beneficios-texto h2{
         font-size: 22px !important;
     }
     .beneficios-texto p{
         font-size: 16px !important;
+    }
+
+    .beneficios .beneficios-list {
+        padding: 0%;
+    }
+    .beneficios .beneficios-texto{
+        padding: 0%;
+    }
+
+    .container-especialidades{
+        width: 100%;
+        padding-bottom: 30px;
     }
     .especialidades .especialidades-texto-button h3{
         font-size: 22px;
@@ -416,7 +455,9 @@
         height: auto;
         padding-bottom: 60px;
         margin-top: 60px;
+        padding-left: 0;
     }
+    
     .cita-img{
         display: none !important;
     }
@@ -424,11 +465,28 @@
     .cita p{
         text-align: center;
     }
+    .cita h3{
+        font-size: 22px;
+    }
+    .cita p{
+        font-size: 16px;
+    }
     .cita .cta{
         justify-content: center;
     }
     .cita .buttons{
         justify-content: center;
+    }
+
+    .banner .list-mapa li{
+        font-size: 16px;
+    }
+    
+    .owl-carousel .owl-dots button{
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        margin: 0 3px;
     }
 }
 @media all and (max-width: 600px){

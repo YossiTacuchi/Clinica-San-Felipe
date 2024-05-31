@@ -6,31 +6,37 @@
     font-family: 'Work Sans Light';
     src: url(../fonts/WorkSans-Bold.ttf) format('truetype');
     font-weight: 100;
+    font-display: fallback;
 }
 @font-face {
     font-family: 'Work Sans Regular';
     src: url(../fonts/WorkSans-Regular.ttf) format('truetype');
     font-weight: 400;
+    font-display: fallback;
 }
 @font-face {
     font-family: 'Work Sans Medium';
     src: url(../fonts/WorkSans-Medium.ttf) format('truetype');
     font-weight: 500;
+    font-display: fallback;
 }
 @font-face {
     font-family: 'Work Sans Bold';
     src: url(../fonts/WorkSans-Medium.ttf) format('truetype');
     font-weight: 600;
+    font-display: fallback;
 }
 @font-face {
     font-family: 'Work Sans Extra Bold';
     src: url(../fonts/WorkSans-ExtraBold.ttf) format('truetype');
     font-weight: 700;
+    font-display: fallback;
 }
 @font-face {
     font-family: 'Work Sans Black';
     src: url(../fonts/WorkSans-Black.ttf) format('truetype');
     font-weight: 900;
+    font-display: fallback;
 }
 
 
@@ -83,6 +89,7 @@ input[type=email]:focus{
 }
 
 .header{
+    position: relative;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -110,8 +117,13 @@ input[type=email]:focus{
 }
 .submenu{
     /* visibility: hidden; */
+    position: absolute;
+    bottom: -30px;
+    z-index: 2;
+
     max-width: none;
     background-color: #BFC8CF;
+    
 }
 .header.sticky-top{
     position: fixed;

@@ -1,0 +1,30 @@
+.banner-nosotros{
+    height: 440px;
+
+    background-image: url(../images/banner_1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.banner-nosotros-texto{
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+
+    width: 465px;
+    height: 100%;
+}
+.banner-nosotros-texto h1{
+    font-size: 48px;
+    font-family: 'Work Sans Bold';
+    color: #0043a5;
+}
+.banner-nosotros-texto p{
+    font-size: 20px;
+    font-family: 'Work Sans Regular';
+
+    color: #0043a5;
+}
+.banner-nosotros-texto h1 .verde{
+    color: #84BD00;
+}
