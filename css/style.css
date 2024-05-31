@@ -3,6 +3,12 @@
 #12489e
 */
 @font-face {
+    font-family: 'Helvetica Regular';
+    src: url(../fonts/HelveticaNeueLTStd-Md.otf) format('opentype');
+    font-weight: 500;
+    font-display: fallback;
+}
+@font-face {
     font-family: 'Work Sans Light';
     src: url(../fonts/WorkSans-Bold.ttf) format('truetype');
     font-weight: 100;
@@ -171,7 +177,7 @@ input[type=email]:focus{
     margin-bottom: 0;
 
     font-size: 16px;
-    font-family: 'Work Sans Medium';
+    font-family: 'Helvetica Regular';
 }
 .list-menu a,
 .list-submenu a{

@@ -28,3 +28,25 @@
 .banner-nosotros-texto h1 .verde{
     color: #84BD00;
 }
+
+.servicios-texto{
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+
+    padding: 40px 0 30px;
+}
+.servicios-texto h2{
+    text-align:  center;
+    font-size: 20px;
+    font-family: 'Work Sans Medium';
+
+    color: #0043a5;
+}
+.servicios-texto p{
+    font-size: 16px;
+    font-family: 'Work Sans Regular';
+    text-align: center;
+
+    color: #667076;
+}
