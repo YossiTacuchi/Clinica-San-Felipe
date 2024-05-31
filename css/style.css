@@ -115,6 +115,9 @@ input[type=email]:focus{
     width: 100%;
     max-width: 1357px;
 }
+.menu .d-flex.align-items-center.gap-5{
+    gap: 20px !important;
+}
 .submenu{
     /* visibility: hidden; */
     position: absolute;
@@ -450,6 +453,8 @@ button.btn.btn-close {
     }
     .navbar-toggler{
         display: block;
+        padding: 20px;
+        font-size: 20px;
     }
     .breadcrumbs{
         flex-direction: column;
