@@ -197,7 +197,7 @@ input[type=email]:focus{
     flex-direction: column;
     align-items: flex-end;
     gap: 20px;
-    padding: 40px 15px;
+    padding: 40px 40px;
     position: fixed;
     z-index: 2000;
     transition: all 0.3s ease;
@@ -210,8 +210,13 @@ input[type=email]:focus{
     background-color: #fff;
 }
 .menu-mobile.show{
-    right: 0;
+    right: 44px;
     width: 80%;
+}
+button.btn.btn-close {
+    transform: translateX(10px);
+    font-size: 20px;
+    color: #0043A5;
 }
 .telefono{
     display: flex;
