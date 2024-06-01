@@ -60,7 +60,7 @@ p,i,
     color: #12489e;
 }
 p.strong{
-    font-family: 'Work Sans Extra Bold' !important;
+    font-family: 'Work Sans Bold' !important;
 }
 h4{
     letter-spacing: -0.75px;
@@ -127,6 +127,9 @@ input[type=email]:focus{
     width: 100%;
     max-width: 1357px;
 }
+.menu{
+    width: 94%;
+}
 .menu .d-flex.align-items-center.gap-5{
     gap: 20px !important;
 }
@@ -176,8 +179,8 @@ input[type=email]:focus{
 .list-menu,
 .list-submenu{
     display: flex;
-    gap: 30px;
-    padding: 0px 40px;
+    gap: 35px;
+    padding: 0px 85px;
 
     list-style: none;
     margin-bottom: 0;
@@ -255,7 +258,7 @@ button.btn.btn-close {
 
     border-radius: 34px;
 
-    font-family: 'Work Sans Extra Bold';
+    font-family: 'Work Sans Bold';
 }
 .btn.btn-primary-basic img{
     filter: invert(79%) sepia(36%) saturate(5275%) hue-rotate(211deg) brightness(81%) contrast(90%);
@@ -437,7 +440,9 @@ button.btn.btn-close {
     .header .header-region-container{
         width: 100%;
     }
-    
+    .menu{
+        width: 100%;
+    }
     .list-menu, .list-submenu{
         padding: 0;
         display: none;
@@ -482,7 +487,7 @@ button.btn.btn-close {
         text-align: center;
     }
     .list-footer .item a {
-        font-family: 'Work Sans Extra Bold';
+        font-family: 'Work Sans Bold';
     }
     .footer-col:first-child{
         order: -2;
