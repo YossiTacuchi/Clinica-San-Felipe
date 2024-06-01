@@ -16,7 +16,7 @@
 }
 .banner-nosotros-texto h1{
     font-size: 48px;
-    font-family: 'Work Sans Bold';
+    font-family: 'Work Sans Semi Bold';
     color: #0043a5;
 }
 .banner-nosotros-texto p{
@@ -34,7 +34,7 @@
 }
 .servicios-texto h2{
     font-size: 30px;
-    font-family: 'Work Sans Bold';
+    font-family: 'Work Sans Semi Bold';
 
     color: #0043a5;
 }
@@ -66,7 +66,7 @@
     margin-bottom: 0;
 
     font-size: 20px;
-    font-family: 'Work Sans Bold';
+    font-family: 'Work Sans Semi Bold';
 
     color: #0043a5;
 }
@@ -85,7 +85,7 @@
     padding: 20px 0;
 
     font-size: 30px;
-    font-family: 'Work Sans Bold';
+    font-family: 'Work Sans Semi Bold';
 
     color: #0043a5;
 }

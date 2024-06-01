@@ -29,7 +29,7 @@
     margin-bottom: 0;
 
     font-size: 22px;
-    font-family: 'Work Sans Bold';
+    font-family: 'Work Sans Semi Bold';
 
     color: #0043a5;
 }
@@ -57,7 +57,7 @@
 }
 .banner-nosotros-texto h1{
     font-size: 48px;
-    font-family: 'Work Sans Bold';
+    font-family: 'Work Sans Semi Bold';
     color: #0043a5;
 }
 .banner-nosotros-texto p{
@@ -98,7 +98,7 @@
 .tags ul li a{
     text-decoration: none;
 
-    font-family: 'Work Sans Bold';
+    font-family: 'Work Sans Semi Bold';
     color: #565859;
     padding: 1rem 0;
     display: block;
@@ -118,7 +118,7 @@
 }
 .contenido-servicio p{
     font-size: 18px;
-    font-family: 'Work Sans Bold';
+    font-family: 'Work Sans Semi Bold';
     color: #667076;
 }
 .contenido-servicio ul li{
@@ -131,7 +131,7 @@
     margin-bottom: 5px;
 
     font-size: 20px;
-    font-family: 'Work Sans Bold';
+    font-family: 'Work Sans Semi Bold';
     color: #0043A5;
     background: #F3F3F3;
 }
@@ -178,7 +178,7 @@
 }
 .lista-resultado .lista .descripcion .nombre{
     font-size: 20px;
-    font-family: 'Work Sans Bold';
+    font-family: 'Work Sans Semi Bold';
 
     color: #0043a5;
 }

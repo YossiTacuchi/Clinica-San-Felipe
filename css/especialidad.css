@@ -16,7 +16,7 @@
 }
 .banner-nosotros-texto h1{
     font-size: 48px;
-    font-family: 'Work Sans Bold';
+    font-family: 'Work Sans Semi Bold';
     color: #0043a5;
 }
 .banner-nosotros-texto p{
@@ -44,7 +44,7 @@
 }
 .banner2-texto h3{
     font-size: 30px;
-    font-family: 'Work Sans Bold';
+    font-family: 'Work Sans Semi Bold';
 
     color: #fff;
 }
@@ -85,7 +85,7 @@
     width: 720px;
 
     font-size: 36px;
-    font-family: 'Work Sans Bold';
+    font-family: 'Work Sans Semi Bold';
 
     color: #0043a5;
 }
@@ -104,7 +104,7 @@
 }
 .sub-servicios-texto-2 h4{
     font-size: 30px;
-    font-family: 'Work Sans Bold';
+    font-family: 'Work Sans Semi Bold';
 
     color: #0043a5;
 }
@@ -154,7 +154,7 @@
 
     text-decoration: underline;
     font-size: 22px;
-    font-family: 'Work Sans Bold';
+    font-family: 'Work Sans Semi Bold';
 
     color: #0043a5;
 }
@@ -218,7 +218,7 @@ ul.pagination {
 
     color: #0043A5;
     font-size: 30px;
-    font-family: 'Work Sans Bold';
+    font-family: 'Work Sans Semi Bold';
 }
 .banner .banner-servicios .banner-texto p{
     height: 90px;

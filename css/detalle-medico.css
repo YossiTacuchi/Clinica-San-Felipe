@@ -17,7 +17,7 @@
     padding: 0 80px;
 
     font-size: 18px;
-    font-family: 'Work Sans Bold';
+    font-family: 'Work Sans Semi Bold';
 }
 .medico .container-medico .medico-informacion .info-icon{
     align-self: baseline;
@@ -40,7 +40,7 @@
 }
 .medico .medico-principal .medico-principal-info h1{
     font-size: 30px;
-    font-family: 'Work Sans Bold';
+    font-family: 'Work Sans Semi Bold';
     color: #0043A5;
 }
 .medico .medico-principal .medico-principal-info a{
@@ -88,12 +88,12 @@
 .accordion-button span{
     color: #0043A5;
     font-size: 18px;
-    font-family: 'Work Sans Bold';
+    font-family: 'Work Sans Semi Bold';
 }
 .accordion-body p{
     color: #667076;
     font-size: 16px;
-    font-family: 'Work Sans Bold';
+    font-family: 'Work Sans Semi Bold';
 }
 .accordion-item>.accordion-header .accordion-button,
 .accordion-body{
@@ -162,7 +162,7 @@
 
     color: #0043A5;
     font-size: 30px;
-    font-family: 'Work Sans Bold';
+    font-family: 'Work Sans Semi Bold';
 }
 .banner .banner-servicios .banner-texto p{
     height: 90px;

@@ -16,7 +16,7 @@
 }
 .banner-nosotros-texto h1{
     font-size: 48px;
-    font-family: 'Work Sans Bold';
+    font-family: 'Work Sans Semi Bold';
     color: #0043a5;
 }
 .banner-nosotros-texto p{
@@ -149,7 +149,7 @@ input.form-checkbox:before {
 
     color: #fff;
     font-size: 30px;
-    font-family: 'Work Sans Bold';
+    font-family: 'Work Sans Semi Bold';
 }
 .banner .banner-servicios .banner-texto p{
     height: 90px;

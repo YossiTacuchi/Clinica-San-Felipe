@@ -16,7 +16,7 @@
 }
 .banner-medicos-texto h1{
     font-size: 48px;
-    font-family: 'Work Sans Bold';
+    font-family: 'Work Sans Semi Bold';
     color: #0043a5;
 }
 .banner-medicos-texto p{
@@ -35,7 +35,7 @@
 }
 .medicos-texto h2{
     font-size: 30px;
-    font-family: 'Work Sans Bold';
+    font-family: 'Work Sans Semi Bold';
 
     color: #0043a5;
 }
@@ -102,7 +102,7 @@
 }
 .seccion-lista .lista-resultado .lista .descripcion .nombre{
     font-size: 20px;
-    font-family: 'Work Sans Bold';
+    font-family: 'Work Sans Semi Bold';
 
     color: #0043a5;
 }

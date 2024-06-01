@@ -17,18 +17,24 @@
 @font-face {
     font-family: 'Work Sans Regular';
     src: url(../fonts/WorkSans-Regular.ttf) format('truetype');
-    font-weight: 400;
+    font-weight: 300;
     font-display: fallback;
 }
 @font-face {
     font-family: 'Work Sans Medium';
     src: url(../fonts/WorkSans-Medium.ttf) format('truetype');
-    font-weight: 500;
+    font-weight: 400;
+    font-display: fallback;
+}
+@font-face {
+    font-family: 'Work Sans Semi Bold';
+    src: url(../fonts/WorkSans-SemiBold.ttf) format('truetype');
+    font-weight: 600;
     font-display: fallback;
 }
 @font-face {
     font-family: 'Work Sans Bold';
-    src: url(../fonts/WorkSans-Medium.ttf) format('truetype');
+    src: url(../fonts/WorkSans-Bold.ttf) format('truetype');
     font-weight: 600;
     font-display: fallback;
 }
@@ -239,7 +245,7 @@ button.btn.btn-close {
     text-decoration: none;
 
     font-size: 25px;
-    font-family: 'Work Sans Bold';
+    font-family: 'Work Sans Semi Bold';
 }
 .telefono a img{
     width: 32px;
@@ -310,7 +316,7 @@ button.btn.btn-close {
 }
 .list-footer .item a{
 
-    font-family: 'Work Sans Bold';
+    font-family: 'Work Sans Semi Bold';
     font-size: 20px;
     text-decoration: none; 
 
@@ -397,7 +403,7 @@ button.btn.btn-close {
 
     gap: 5px;
     font-size: 16px;
-    font-family: 'Work Sans Bold';
+    font-family: 'Work Sans Semi Bold';
 }
 .breadcrumbs .bc-link{
     text-decoration: none;

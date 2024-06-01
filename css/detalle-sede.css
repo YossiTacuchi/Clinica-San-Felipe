@@ -69,7 +69,7 @@
 }
 .caracteristicas-texto h3{
     font-size: 25px;
-    font-family: 'Work Sans Bold';
+    font-family: 'Work Sans Semi Bold';
     color:#0043a5;
 }
 .caracteristicas-texto p{
@@ -124,7 +124,7 @@
     padding: 20px 0 0;
 
     font-size: 30px;
-    font-family: 'Work Sans Bold';
+    font-family: 'Work Sans Semi Bold';
 
     color: #0043a5;
 }
@@ -306,13 +306,13 @@
 }
 .banner span{
     font-size: 20px;
-    font-family: 'Work Sans Bold';
+    font-family: 'Work Sans Semi Bold';
     color: #fff;
 }
 .banner .list-mapa{
     list-style: none;
     font-size: 20px;
-    font-family: 'Work Sans Bold';
+    font-family: 'Work Sans Semi Bold';
 }
 .banner .list-mapa li{
     display: inline;
@@ -342,7 +342,7 @@
     margin-bottom: 10px;
 
     font-size: 25px;
-    font-family: 'Work Sans Bold';
+    font-family: 'Work Sans Semi Bold';
     color: #12489e
 }
 .cita p{
