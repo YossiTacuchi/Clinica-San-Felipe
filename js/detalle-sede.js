@@ -1,5 +1,11 @@
 $(document).ready(function() {
 
+    $('.beneficio-item a').click(function(e){
+        e.preventDefault();
+        $('.beneficio-item a').parent().removeClass('show');
+        $(this).parent().addClass('show');
+    });
+
     $('.owl-carousel-detalle-sede').owlCarousel({
         loop:true,
         margin:10,

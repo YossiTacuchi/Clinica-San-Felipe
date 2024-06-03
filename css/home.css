@@ -14,11 +14,40 @@
     stroke: #000;
     stroke-width: 0.25px;
 }
+#lightbox {
+    display: flex;
+    flex-direction: column-reverse;    
+}
+.lb-dataContainer{
+    padding-top: 0;
+    padding-bottom: 10px;
+    position: absolute;
+    top: 0;
+    height: 100%;
+    z-index: 99999;
+    left: 0;
+    right: 0;
+}
+.lb-data {
+    height: 100%;
+}
+.lb-data .lb-details {
+    height: 100%;
+}
+.lb-data .lb-caption {
+    height: 100%;
+    display: block;
+}
+.lb-data .lb-caption a {
+    height: 100%;
+    display: block;
+}
 
 section.main {
     position: relative;
     z-index: 0;
 }
+
 .owl-carousel.owl-carousel-home .owl-nav button{
     background-repeat: no-repeat !important;
     background-position: center !important;
