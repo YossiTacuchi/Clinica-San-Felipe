@@ -208,6 +208,9 @@ input[type=email]:focus{
     justify-content: center;
     padding: 12px 0;
 }
+.menu-mobile .list-menu .item.red a{
+    color: #d45420;
+}
 .menu-mobile{
     display: none;
 
@@ -228,6 +231,7 @@ input[type=email]:focus{
     background-color: #fff;
 }
 .menu-mobile.show{
+    display: flex;
     right: 0px;
     width: 80%;
 }
@@ -235,6 +239,9 @@ button.btn.btn-close {
     transform: translateX(10px);
     font-size: 20px;
     color: #0043A5;
+}
+button.btn.btn-close span{
+    opacity: 0;
 }
 .telefono{
     display: flex;
@@ -447,9 +454,7 @@ button.btn.btn-close {
         padding: 0;
         display: none;
     }
-    .menu-mobile{
-        display: flex;
-    }
+    
     .menu-mobile .telefono{
         display: block;
     }
@@ -458,6 +463,7 @@ button.btn.btn-close {
     }
     .menu-mobile .telefono a{
         font-size: 16px;
+        justify-content: end;
     }
     .menu-mobile .list-menu{
         display: flex;
