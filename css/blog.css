@@ -123,6 +123,9 @@
 .owl-carousel-ultimas .owl-dots .owl-dot span{
     opacity: 0;
 }
+.owl-carousel-ultimas .owl-nav.disabled+.owl-dots{
+    margin-top: 30px;
+}
 
 .texto-articulos{
     flex-direction: column;
@@ -149,13 +152,19 @@
     display: flex;
     justify-content: space-between;
 }
+.tags .colapsar .ocultar{
+    display: none;
+}
+.tags .list-tags .tag.ocultar{
+    display: none;
+}
 .tags{
 
     position: sticky;
     top: 12rem; /* Cambia a 'top: 0;' si quieres que se adhiera a la parte superior */
 
     background: #ffff;
-    width: 276px;
+    min-width: 276px;
     height: fit-content;
     margin-right: 20px;
     padding: 1rem 1.5rem 0;
@@ -166,58 +175,77 @@
 }
 .tags ul li{
     list-style: none;
-}
-.tags ul li:not(:last-child){
-    border-bottom: 1px solid #0043A5;
+    font-family: 'Work Sans Medium';
+    color: #667076;
 }
 .tags ul li a{
     text-decoration: none;
 
-    font-family: 'Work Sans Semi Bold';
+    font-family: 'Work Sans Medium';
     color: #565859;
     padding: 1rem 0;
     display: block;
 }
-.contenido-servicio{
-    flex-direction: column;
+.tags ul li a.colapsar{
+    color: #0043A5;
+    padding-bottom: 0.25rem;
+}
 
-    padding: 1.5rem;
+.contenido-items{
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.blog-item {
+    width: calc( 100%/3 - 15px);
+    position: relative;
+    overflow: hidden;
+    text-decoration: none;
+    
+    border-radius: 4px 4px 0 0;
+}
+.blog-item .tag{
+    position: absolute;
+    left: 1rem;
+    top: 1rem;
+    padding: .2rem .5rem;
+    border-radius: 4px 4px 0px 0px;
+    z-index: 1;
+    font-weight: 600;
+    font-size: 0.75rem;
+
+    background-color: #84bd00;
+    color: #0043A5 !important;
+}
+.blog-item .blog-img{
+    overflow: hidden;
+    border-radius: 4px 4px 0 0;
+}
+.blog-item img{
+    overflow: hidden;
     width: 100%;
 }
-.contenido-servicio h4{
-    margin-bottom: 10px;
+.blog-item .blog-detalles{
+    gap: 8px;
+    padding: 1.2rem 1.2rem;
 
-    font-size: 30px;
-    font-family: 'Work Sans Extra Bold';
+    background-color: #fff;
+}
+.blog-item .blog-detalles .blog-titulo,
+.blog-item .blog-detalles .blog-fecha{
     color: #0043A5;
 }
-.contenido-servicio p{
+.blog-item .blog-detalles .blog-extracto{
+    color: #667076;
+    line-height: 1.8;
+}
+.blog-item .blog-detalles .blog-titulo{
     font-size: 18px;
     font-family: 'Work Sans Semi Bold';
-    color: #667076;
 }
-.contenido-servicio ul li{
-    
-    display: flex;
-    align-items: center;
-
-    list-style: none;
-    padding: 1rem;
-    margin-bottom: 5px;
-
-    font-size: 20px;
-    font-family: 'Work Sans Semi Bold';
-    color: #0043A5;
-    background: #F3F3F3;
-}
-.contenido-servicio ul li{
-    gap: 15px;
-}
-.contenido-servicio .list-tag{
-    padding-left: 0;
-}
-.contenido-servicio ul li{
-    
+.blog-item .blog-detalles .blog-extracto,
+.blog-item .blog-detalles .blog-fecha{
+    font-size: 14px;
+    font-family: 'Work Sans Medium';
 }
 
 
@@ -242,75 +270,17 @@
     }
     
     .tags{
+        display: none !important;
+    }
+    
+
+    .blog-item {
+        width: 100%;
         position: relative;
-        top: 0;
-        width: 100%;
-        padding: 0;
-        margin-bottom: 30px;
-        background-color: transparent;
-    }
-    .list-tags{
-        display: flex;
+        overflow: hidden;
+        text-decoration: none;
         
-    }
-    .tags ul {
-        width: 100%;
-        overflow: auto;
-    }
-    .tags ul li a{
-        white-space: nowrap;
-        padding: 20px;
-        
-        font-size: 14px;
-        font-family: 'Work Sans Extra Bold';
-        color: #84BD00;
-    }
-    .tags ul li{
-        display: flex;
-
-        padding: 0;
-        border-radius: 3px;
-        
-        padding: 0rem .5rem;
-        text-align: center;
-        height: 60px;
-        margin: 0 10px;
-
-        background-color: #ffff;
-        border: 1px solid #84BD00;
-    }
-    .container-tags{
-        padding: 20px 0;
-        flex-direction: column;
-    }
-    .contenido-servicio{
-        width: 100%;
+        border-radius: 4px 4px 0 0;
     }
 
-    .contenido-servicio .item{
-        width: 100%;
-    }
-    
-    .contenido-servicio h4,
-    .contenido-servicio p,
-    .contenido-servicio ul li{
-        font-size: 16px;
-    }
-    
-    .lista-resultado .lista{
-        flex-direction: column;
-        gap: 30px;
-    }
-    .lista-resultado .lista .ctas{
-        justify-content: space-between;
-    }
-    .lista-resultado .lista .descripcion{
-        flex: 1;
-    }
-    .lista-resultado .lista .ctas{
-        flex-direction: row;
-    }
-    .lista-resultado .lista .ctas a{
-        font-size: 14px;
-    }
 }
