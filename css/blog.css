@@ -147,6 +147,37 @@
     font-family: 'Work Sans Semi Bold';
 }
 
+.mobile-filter {
+    padding: 2.5rem 0;
+    display: none;
+    flex-direction: column;
+    gap: 20px;
+}
+.mobile-filter h4{
+    text-align: center;
+    font-size: 22px;
+    color: #0043A5;
+    font-family: 'Work Sans Semi Bold';
+}
+.mobile-filter .info{
+    font-size: 14px;
+    color: #667076;
+    font-family: 'Work Sans Medium';
+}
+select.filtros{
+    background-color: #F3F3F3;
+    width: 87px;
+    padding-left: .5rem;
+}
+select.filtros {
+    height: 40px;
+    border: 1px solid #0043A5;
+    border-radius: 100px;
+    color: #0043A5 !important;
+    font-size: 1rem !important;
+    width: 100%;
+}
+
 .container-tags{
     padding: 0px 0 30px;
     display: flex;
@@ -269,7 +300,19 @@
         font-size: 14px;
     }
     
+    .container-tags{
+        flex-direction: column;
+    }
+
+
+    .mobile-filter {
+        display: flex;
+    }
+
     .tags{
+        display: none !important;
+    }
+    .texto-articulos{
         display: none !important;
     }
     
