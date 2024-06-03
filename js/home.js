@@ -1,5 +1,7 @@
 $(document).ready(function() {
-
+    
+    $('.lightbox-home').click();
+    
     $('.owl-carousel-home').owlCarousel({
         autoplay:true,
         loop:true,
