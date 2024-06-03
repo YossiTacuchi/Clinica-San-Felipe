@@ -1,3 +1,11 @@
+.banner-mobile{
+    display: none;
+}
+.banner-mobile img{
+    object-fit: cover;
+    width: 100%;
+    height: 283px;
+}
 .banner{
     position: relative;
     height: 560px;
@@ -142,4 +150,53 @@
 .container-medico .medico .lugares{
    flex-direction: row;
    gap: 5px;
+}
+
+
+@media all and (max-width: 991px){
+    .banner-mobile{
+        display: none;
+        display: flex;
+    }
+    .banner{
+        height: auto;
+       background-image: none;
+    }
+    .banner .container{
+        width: 100%;
+        max-width: 100%;
+        padding: 0;
+    }
+    .banner:before {
+        display: none;
+    }
+    .banner-texto{
+        height: auto;
+        gap: 10px;
+        padding: 2rem 0;
+    }
+    .banner-texto h1{
+        text-align: center;
+        font-size: 22px;
+        color: #0043A5;
+    }
+    .banner-texto .datos-post .autor,
+    .banner-texto .datos-post .fecha{
+        text-align: center;
+        font-size: 14px;
+    
+        color: #0043A5;
+    }
+
+    .section-blog{
+        width: 100%;
+    }
+
+    .container-medico .medico{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .container-medico .medico .ctas{
+        flex-direction: row;
+    }
 }
