@@ -244,6 +244,7 @@ section.main {
     justify-content: center;
     align-items: center;
     padding: 30px 20px;
+    text-align: center;
     border-radius: 0 0 8px 8px;
     background-color: #0043A5;
 }
@@ -276,7 +277,7 @@ section.main {
     font-family: 'Work Sans Medium';
 }
 .block-4 p{
-    color: #0043A5;
+    color: #667076;
     font-size: 16px;
     font-family: 'Work Sans Medium';
 }
@@ -477,5 +478,23 @@ ul.list-sede {
     }
     .sede-card{
         margin: auto;
+    }
+    .card-home .card-texto{
+        font-size: 16px;
+    }
+    .card-content-3 h2{
+        font-size: 22px;
+    }
+    .card-content-3 p{
+        font-size: 14px;
+    }
+    .block-4 h3{
+        font-size: 22px;
+    }
+    .block-4 p{
+        font-size: 16px;
+    }
+    .block-5 h3{
+        font-size: 20px;
     }
 }
