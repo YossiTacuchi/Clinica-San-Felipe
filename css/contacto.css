@@ -167,6 +167,62 @@ input.form-checkbox:before {
     margin-bottom: 10px;
 }
 
+.banner-rrss{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 477px;
+
+    background-image: url(../images/bg-rrss-contactenos.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.banner-rrss .rrss{
+    flex-direction: column;
+    align-self: center;
+    
+    text-align: center;
+}
+.banner-rrss .rrss h2{
+    margin-bottom: 0;
+
+    font-size: 32px;
+    font-family: 'Work Sans Semi Bold';
+    color: #667076;
+}
+.banner-rrss .rrss p{
+    margin-bottom: 0;
+
+    font-size: 16px;
+    font-family: 'Work Sans Medium';
+    color: #667076;
+}
+.banner-rrss .rrss ul{
+    display: flex;
+    justify-content: center;
+    gap:10px;
+
+    list-style: none;
+    padding-left: 0;
+}
+.banner-rrss .rrss ul li{
+    width: 35px;
+    height: 36px;
+    background: #0043A5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    box-shadow: 0px 1px 0 0px #0043A5;
+}
+.banner-rrss .rrss ul li a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 @media all and (max-width: 991px){
     .banner-nosotros{
         height: 280px;
@@ -208,5 +264,17 @@ input.form-checkbox:before {
     }
     .cta{
         justify-content: center;
+    }
+
+    .banner-rrss{
+        background-image: none;
+        height: auto;
+    }
+    .banner-rrss .rrss h2{
+
+        font-size: 26px;
+    }
+    .banner-rrss .rrss p{
+        font-size: 16px;
     }
 }

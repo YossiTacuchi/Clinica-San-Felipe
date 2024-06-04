@@ -224,7 +224,7 @@ input[type=email]:focus{
     transition: all 0.3s ease;
     top: 0;
     bottom: 0;
-    right: -30%;
+    right: -50%;
     width: 0;
     height: 100vh !important;
     display: block;
