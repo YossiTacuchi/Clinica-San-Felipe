@@ -2,6 +2,19 @@ $(document).ready(function() {
     
     $('.lightbox-home').click();
     
+    $('.list-submenu').addClass('hidehome');
+
+    $(window).scroll(function() {
+        var scrollTop = $(this).scrollTop();
+        if ($(window).scrollTop() > 185) {
+          // Scroll down
+          $('.list-submenu').removeClass('hidehome');
+        } else {
+          // Scroll up
+          $('.list-submenu').addClass('hidehome');
+        }
+    });
+
     $('.owl-carousel-home').owlCarousel({
         autoplay:true,
         loop:true,

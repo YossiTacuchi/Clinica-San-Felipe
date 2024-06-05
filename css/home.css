@@ -1,3 +1,7 @@
+.list-submenu.hidehome{
+    display: none !important;
+}
+
 .cls-g1 {
     clip-path: url("#clip-path1");
 }

@@ -135,8 +135,8 @@ input[type=email]:focus{
 }
 .submenu{
     /* visibility: hidden; */
-    position: absolute;
-    bottom: -30px;
+    
+   
     z-index: 2;
 
     max-width: none;
@@ -450,9 +450,17 @@ button.btn.btn-close span{
     .menu{
         width: 100%;
     }
-    .list-menu, .list-submenu{
+    .list-menu{
         padding: 0;
         display: none;
+    }
+    .list-submenu{
+        padding: 0;
+        
+    }
+    .list-submenu a{
+        font-size: 12px;
+        text-align: center;
     }
     
     .menu-mobile .telefono{
@@ -504,5 +512,10 @@ button.btn.btn-close span{
     .footer-col:last-child{
         order: -1;
         align-items: center;
+    }
+}
+@media all and (max-width: 520px){
+    .list-submenu a{
+        font-size: 11px;
     }
 }
