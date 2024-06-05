@@ -144,6 +144,16 @@
     transition: .25s all;
     transform: scale(0.98);
 }
+.sub-servicios-items .item .item-cta{
+    justify-content: space-between;
+}
+.link-mobile{
+    display: none !important;
+}
+.item-content{
+    gap: 15px;
+    flex-direction: column;
+}
 .sub-servicios-items .item img{
     min-height: 75px;
     max-height: 75px;
@@ -268,7 +278,26 @@ ul.pagination {
         width: 100%;
     }
     .sub-servicios-items .item{
+        gap: 10px;
         width: 100%;
+        min-height: 175px;
+    }
+    .link-mobile{
+        display: flex !important;
+        justify-content: end;
+    }
+    .sub-servicios-items .item .item-cta span{
+        display: none !important;
+    }
+    .item-content{
+        flex-direction: row;
+        gap: 35px;
+    }
+    .item-nombre{
+        align-items: center;
+    }
+    .sub-servicios-items .item h4{
+        height: auto;
     }
 
     .cta-medico .text-form{
