@@ -309,6 +309,19 @@
 .especialidad-item:hover h4{
     color: #12489e;
 }
+.grid-especialidades{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.grid-especialidades.ocultar{
+    display: none;
+}
+.grid-especialidades .item{
+    width: calc(25% - 30px);
+}
 
 .mapa-banner{
     flex-direction: column;
@@ -475,6 +488,9 @@
         padding: 0%;
     }
 
+    .especialidades .container{
+        max-width: 95%;
+    }
     .container-especialidades{
         width: 100%;
         padding-bottom: 30px;
@@ -537,6 +553,10 @@
         border-radius: 50%;
         margin: 0 3px;
     }
+
+    .grid-especialidades .item{
+        width: calc(33% - 25px);
+    }
 }
 @media all and (max-width: 600px){
     .beneficios-list .beneficio-item{
@@ -544,5 +564,9 @@
     }
     .buttons-banner{
         flex-direction: column;
+    }
+
+    .grid-especialidades .item{
+        width: calc(50% - 20px);
     }
 }

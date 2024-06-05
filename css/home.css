@@ -241,9 +241,7 @@ section.main {
     height: 262px;
     border-radius: 8px 8px 0 0;
 }
-.bg-block-3-card img{
-    width: 100%;
-}
+
 .card-content-3{
     justify-content: center;
     align-items: center;
