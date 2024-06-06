@@ -1,10 +1,8 @@
 .banner-nosotros{
+    position: relative;
     height: 440px;
 
-    background-image: url(../images/Unidades_de_apoyo_al_diagnostico.jpeg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+
 }
 .banner-nosotros-texto{
     flex-direction: column;
@@ -31,6 +29,21 @@
 .ofrecemos-texto-2{
     flex-direction: column;
 }
+.container-banner{
+    position: relative;
+    z-index: 1;
+}
+.img-banner {
+    position: absolute;
+    z-index: 0;
+    height: 100%;
+    width: fit-content;
+    left: 0;
+    top: 0;
+    right: 0;
+    margin: auto;
+}
+
 
 .sub-servicios-texto h3{
     width: 720px;
@@ -144,7 +157,7 @@
         justify-content: center;
         gap: 5px;
     
-        width: 100%;
+        width: 240px;
         height: 100%;
     }
     .banner-nosotros-texto h1{

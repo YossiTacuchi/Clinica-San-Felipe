@@ -39,7 +39,7 @@
     top: 11rem; /* Cambia a 'top: 0;' si quieres que se adhiera a la parte superior */
 
     background: #ffff;
-    width: 276px;
+    width: 290px;
     height: fit-content;
     margin-right: 20px;
     padding: 1rem 1.5rem 0;
@@ -47,6 +47,7 @@
 }
 .tags ul{
     padding-left: 0;
+    width: 100%;
 }
 .tags ul li{
     list-style: none;
@@ -66,13 +67,13 @@
     flex-direction: column;
 
     padding: 1.5rem;
-    width: 820px;
+    width: 830px;
 }
 .contenido-servicio h4{
     margin-bottom: 10px;
 
     font-size: 30px;
-    font-family: 'Work Sans Extra Bold';
+    font-family: 'Work Sans Bold';
     color: #0043A5;
 }
 .contenido-servicio p{
