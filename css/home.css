@@ -499,4 +499,7 @@ ul.list-sede {
     .block-5 h3{
         font-size: 20px;
     }
+    .bg-mapa img{
+        height: auto;
+    }
 }
