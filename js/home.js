@@ -23,16 +23,42 @@ $(document).ready(function() {
         dots:false,
         responsive:{
             0:{
-                items:1
+                items:1,
+                onInitialized: updateImages,
+                onResized: updateImages
             },
             600:{
-                items:1
+                items:1,
+                onInitialized: updateImages,
+                onResized: updateImages
             },
             1000:{
-                items:1
+                items:1,
+                onInitialized: updateImages,
+                onResized: updateImages
             }
         }
       });
+    
+      function updateImages() {
+        var width = $(window).width();
+        $('.owl-carousel-home').find('.item img').each(function() {
+          var $img = $(this);
+          var mobileSrc = $img.data('src-mobile');
+          var desktopSrc = $img.attr('src');
+    
+          if (width < 600) {
+            if ($img.attr('src') !== mobileSrc) {
+              $img.attr('src', mobileSrc);
+            }
+          } else {
+            if ($img.attr('src') !== desktopSrc) {
+              $img.attr('src', desktopSrc);
+            }
+          }
+        });
+      }
+      $(window).resize(updateImages);
   
     $('.owl-carousel-articulos').owlCarousel({
       loop:true,
