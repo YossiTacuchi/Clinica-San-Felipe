@@ -363,7 +363,7 @@
 }
 .banner h4{
     font-size: 20px;
-    font-family: 'Work Sans Extra Bold';
+    font-family: 'Work Sans Bold';
     color: #12489e;
 }
 .banner span{
@@ -563,9 +563,11 @@
         width: 100% !important;
     }
     .buttons-banner{
-        flex-direction: column;
+        flex-direction: row;
     }
-
+    .banner .buttons-banner .btn.btn-primary-basic img{
+        height: 44px;
+    }
     .grid-especialidades .item{
         width: calc(50% - 20px);
     }
